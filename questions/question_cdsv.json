@@ -1,0 +1,2626 @@
+[
+    {
+        "questionNumber": "Câu 1.",
+        "questionText": "Đợt đăng khí dự kiến trước khi bắt đầu học kì chính.",
+        "answers": [
+            {
+                "answerText": "2 tuần",
+                "isCorrect": false
+            },
+            {
+                "answerText": "3 tuần",
+                "isCorrect": false
+            },
+            {
+                "answerText": "1 tuần",
+                "isCorrect": false
+            },
+            {
+                "answerText": "4 tuần",
+                "isCorrect": true
+            }
+        ]
+    },
+    {
+        "questionNumber": "Câu 2.",
+        "questionText": "Thi kết thử 1 học phần sinh viên có điểm thành phần tương ứng là A-5, B-8, C-9 điểm học phần hệ 4 của sinh viên là:",
+        "answers": [
+            {
+                "answerText": "2",
+                "isCorrect": true
+            },
+            {
+                "answerText": "2.5",
+                "isCorrect": false
+            },
+            {
+                "answerText": "1.5",
+                "isCorrect": false
+            },
+            {
+                "answerText": "1",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionNumber": "Câu 3.",
+        "questionText": "Các học phần giáo dục thế chất và giáo dục quốc phòng là:",
+        "answers": [
+            {
+                "answerText": "Học phân cấp chứng chỉ.",
+                "isCorrect": true
+            },
+            {
+                "answerText": "Học phần tự chọn",
+                "isCorrect": false
+            },
+            {
+                "answerText": "Học phần ko bắt buộc",
+                "isCorrect": false
+            },
+            {
+                "answerText": "Học phần bắt buộc",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionNumber": "Câu 4:",
+        "questionText": "20 sinh viên là số lượng tối thiểu để mở 1 lớp",
+        "answers": [
+            {
+                "answerText": "Lớp học phần bắt buộc cho nhiều ngành",
+                "isCorrect": false
+            },
+            {
+                "answerText": "Chuyên ngành đào tạo",
+                "isCorrect": true
+            },
+            {
+                "answerText": "Hướng chuyên sâu",
+                "isCorrect": false
+            },
+            {
+                "answerText": "Lớp học phần tự chọn tự do",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionNumber": "Câu 5:",
+        "questionText": "Rút học phần của HK phụ bắt đầu từ lúc",
+        "answers": [
+            {
+                "answerText": "Sau 2 tuần từ lúc bắt đầu học kì",
+                "isCorrect": false
+            },
+            {
+                "answerText": "Sau 1 tuần từ lúc bắt đầu học kì",
+                "isCorrect": true
+            },
+            {
+                "answerText": "Trước 2 tuần từ lúc bắt đầu học kì",
+                "isCorrect": false
+            },
+            {
+                "answerText": "Trước 2 tuần từ lúc bắt đầu học kì",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionNumber": "Câu 6:",
+        "questionText": "Khối lượng học tập tối thiểu của sv học lực yếu ở học kì chính là.",
+        "answers": [
+            {
+                "answerText": "10 tín",
+                "isCorrect": true
+            },
+            {
+                "answerText": "14 tín",
+                "isCorrect": false
+            },
+            {
+                "answerText": "18 tín",
+                "isCorrect": false
+            },
+            {
+                "answerText": "Ko quy định",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionNumber": "Câu 7:",
+        "questionText": "Sau 4 học kì sinh viên có điểm TBTL và số tín chỉ tích lũy tương ứng là: HK1-1,4/15 tín; HK2- 1,6/18tc; HK3-1,4/12tc; HK4-2,2/20tc, sv sẽ đc xếp hạng là sv năm thứ.",
+        "answers": [
+            {
+                "answerText": "2",
+                "isCorrect": false
+            },
+            {
+                "answerText": "3",
+                "isCorrect": true
+            },
+            {
+                "answerText": "4",
+                "isCorrect": false
+            },
+            {
+                "answerText": "Ko xếp hạng",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionNumber": "Câu 8:",
+        "questionText": "1 trong các điều kiện để được đi thực tập tốt nghiệp của sinh viên là.",
+        "answers": [
+            {
+                "answerText": "Có công lệnh do phòng đào tạo cấp",
+                "isCorrect": false
+            },
+            {
+                "answerText": "Nợ ko quá 2 học phần trong chương trình đào tạo",
+                "isCorrect": true
+            },
+            {
+                "answerText": "Có điểm TBTL của học kì ko dưới 2.0",
+                "isCorrect": false
+            },
+            {
+                "answerText": "Có điểm TBTL cuối ko dưới 2.0",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionNumber": "Câu 9:",
+        "questionText": "Sinh viên xếp hạng học lực khá của hk khá của sv khi có điểm TB chung đạt",
+        "answers": [
+            {
+                "answerText": "2.0-2.49",
+                "isCorrect": false
+            },
+            {
+                "answerText": "2.5-3.19",
+                "isCorrect": true
+            },
+            {
+                "answerText": "3.2-3.59",
+                "isCorrect": false
+            },
+            {
+                "answerText": "3.6-4",
+                "isCorrect": false
+            }
+        ]
+    },
+     {
+        "questionNumber": "Câu 10:",
+        "questionText": "Sinh viên được xếp hạng là sinh viên năm 4 khi khối lượng kiến thức tính lũy",
+        "answers": [
+            {
+                "answerText": "32-dưới 64tc",
+                "isCorrect": false
+            },
+            {
+                "answerText": "96-dưới 128tc",
+                "isCorrect": true
+            },
+            {
+                "answerText": "64-dưới 96tc",
+                "isCorrect": false
+            },
+            {
+                "answerText": "Từ 128 tín trở lên",
+                "isCorrect": false
+            }
+        ]
+    },
+     {
+        "questionNumber": "Câu 11:",
+        "questionText": "Sinh viên được xếp hạng là sinh viên năm 3 khi khối lượng kiến thức tính lũy",
+        "answers": [
+            {
+                "answerText": "32-dưới 64tc",
+                "isCorrect": false
+            },
+            {
+                "answerText": "96-dưới 128tc",
+                "isCorrect": false
+            },
+            {
+                "answerText": "64-dưới 96tc",
+                "isCorrect": true
+            },
+            {
+                "answerText": "Từ 128 tín trở lên",
+                "isCorrect": false
+            }
+        ]
+    },
+     {
+        "questionNumber": "Câu 12:",
+        "questionText": "Sinh viên được xếp hạng là sinh viên năm 1 khi khối lượng kiến thức tính lũy",
+        "answers": [
+            {
+                "answerText": "Dưới 32tc",
+                "isCorrect": true
+            },
+            {
+                "answerText": "96-dưới 128tc",
+                "isCorrect": false
+            },
+            {
+                "answerText": "64-dưới 96tc",
+                "isCorrect": false
+            },
+            {
+                "answerText": "Từ 128 tín trở lên",
+                "isCorrect": false
+            }
+        ]
+    },
+     {
+        "questionNumber": "Câu 13:",
+        "questionText": "Sinh viên được xếp hạng là sinh viên năm 5 khi khối lượng kiến thức tính lũy",
+        "answers": [
+            {
+                "answerText": "32-dưới 64tc",
+                "isCorrect": false
+            },
+            {
+                "answerText": "96-dưới 128tc",
+                "isCorrect": false
+            },
+            {
+                "answerText": "64-dưới 96tc",
+                "isCorrect": false
+            },
+            {
+                "answerText": "Từ 128 tín trở lên",
+                "isCorrect": true
+            }
+        ]
+    },
+     {
+        "questionNumber": "Câu 14:",
+        "questionText": "Thời gian học tập tối đa với khóa học 4 năm là",
+        "answers": [
+            {
+                "answerText": "Ngoài thời gian thiết kế cộng 4 HK",
+                "isCorrect": false
+            },
+            {
+                "answerText": "Ngoài thời gian thiết kế cộng 5 HK",
+                "isCorrect": false
+            },
+            {
+                "answerText": "Ngoài thời gian thiết kế cộng 6 HK",
+                "isCorrect": false
+            },
+            {
+                "answerText": "6 năm",
+                "isCorrect": true
+            }
+        ]
+    },
+     {
+        "questionNumber": "Câu 15:",
+        "questionText": "Sinh viên học hộ lần thứ 2 phải chịu hình thức kỉ luật nào",
+        "answers": [
+            {
+                "answerText": "Khiển trách",
+                "isCorrect": false
+            },
+            {
+                "answerText": "Cảnh cáo",
+                "isCorrect": false
+            },
+            {
+                "answerText": "Đình chỉ học tập 1 năm",
+                "isCorrect": false
+            },
+            {
+                "answerText": "Buộc thôi học",
+                "isCorrect": true
+            }
+        ]
+    },
+     {
+        "questionNumber": "Câu 16:",
+        "questionText": "Điều kiện để sinh viên học cùng lúc 2 văn bằng là",
+        "answers": [
+            {
+                "answerText": "Ngành đào tạo chính ở chương trình thứ 2 phải khác ngành đào tạo chính ở chương trình thứ 1",
+                "isCorrect": false
+            },
+            {
+                "answerText": "Sinh viên đã học ít nhất 1 học kì ở chương trình thứ 2, có điểm trung bình tích lũy và điểm TBHK từ 2.0>",
+                "isCorrect": false
+            },
+            {
+                "answerText": "Sinh viên đã học ít nhất 1 HK ở chương trình thứ 1, có điểm TBHK từ 2.>",
+                "isCorrect": true
+            },
+            {
+                "answerText": "Cả A và B",
+                "isCorrect": false
+            }
+        ]
+    },
+     {
+        "questionNumber": "Câu 17:",
+        "questionText": "Email của sv khi nhập học là",
+        "answers": [
+            {
+                "answerText": "mssv@student.humg.edu.vn",
+                "isCorrect": true
+            }
+        ]
+    },
+     {
+        "questionNumber": "Câu 18:",
+        "questionText": "Sinh viên được phân loại kết quả rèn luyện loại tốt là",
+        "answers": [
+            {
+                "answerText": "80-89",
+                "isCorrect": true
+            },
+            {
+                "answerText": "85-89",
+                "isCorrect": false
+            },
+            {
+                "answerText": "70-80",
+                "isCorrect": false
+            },
+            {
+                "answerText": "60-70",
+                "isCorrect": false
+            }
+        ]
+    },
+     {
+        "questionNumber": "Câu 19:",
+        "questionText": "Sinh viên thực hiện đăng kí khối lượng học tập online qua website",
+        "answers": [
+            {
+                "answerText": "Humg.edu.vn",
+                "isCorrect": false
+            },
+            {
+                "answerText": "Daotao.humg.edu.vn",
+                "isCorrect": true
+            },
+            {
+                "answerText": "Dtdh.",
+                "isCorrect": false
+            }
+        ]
+    },
+     {
+        "questionNumber": "Câu 20:",
+        "questionText": "Sinh viên là người dân tộc thiểu số (không phải dân tộc thiểu số ít người) ở vùng kinh tế - xã hội đặc biệt khó khăn",
+        "answers": [
+            {
+                "answerText": "Miễn 100% học phí",
+                "isCorrect": false
+            },
+            {
+                "answerText": "Giảm 70% học phí",
+                "isCorrect": true
+            },
+            {
+                "answerText": "Giảm 50% học phí",
+                "isCorrect": false
+            },
+            {
+                "answerText": "Ko đc miễn giảm",
+                "isCorrect": false
+            }
+        ]
+    },
+     {
+        "questionNumber": "Câu 21:",
+        "questionText": "Sinh viên được xếp loại học lực yếu khi điểm TB học kì",
+        "answers": [
+            {
+                "answerText": "Dưới 1.0",
+                "isCorrect": false
+            },
+            {
+                "answerText": "Dưới 2.0",
+                "isCorrect": true
+            },
+            {
+                "answerText": "Học dưới 10 tín chỉ trong 1 kì",
+                "isCorrect": false
+            },
+            {
+                "answerText": "Là B or C",
+                "isCorrect": false
+            }
+        ]
+    },
+     {
+        "questionNumber": "Câu 22:",
+        "questionText": "website cfi.humg.edu.vn là địa chỉ website",
+        "answers": [
+            {
+                "answerText": "Thư viện",
+                "isCorrect": false
+            },
+            {
+                "answerText": "Phòng đào tạo",
+                "isCorrect": false
+            },
+            {
+                "answerText": "Phong công tác",
+                "isCorrect": false
+            },
+            {
+                "answerText": "Trung tâm ngoại ngữ và tin học",
+                "isCorrect": true
+            }
+        ]
+    },
+     {
+        "questionNumber": "Câu 23:",
+        "questionText": "Để đủ điều kiện xét tốt nghiệp ra trường, theo quy định hiện hành, sinh viên đạt chuẩn đầu ra ngoại ngữ là",
+        "answers": [
+            {
+                "answerText": "Bậc 2 khung năng lực ngoại ngữ VN",
+                "isCorrect": true
+            },
+            {
+                "answerText": "Bậc 3 khung năng lực ngoại ngữ VN",
+                "isCorrect": false
+            },
+            {
+                "answerText": "Bậc 4 khung năng lực ngoại ngữ VN",
+                "isCorrect": false
+            },
+            {
+                "answerText": "Ko có đáp án",
+                "isCorrect": false
+            }
+        ]
+    },
+     {
+        "questionNumber": "Câu 24:",
+        "questionText": "Điểm kiểm tra giữa kì chiếm bao nhiêu % tổng số điểm thi kết thúc học kì",
+        "answers": [
+            {
+                "answerText": "20%",
+                "isCorrect": false
+            },
+            {
+                "answerText": "10%",
+                "isCorrect": false
+            },
+            {
+                "answerText": "30%",
+                "isCorrect": true
+            },
+            {
+                "answerText": "Ko có",
+                "isCorrect": false
+            }
+        ]
+    },
+     {
+        "questionNumber": "Câu 25:",
+        "questionText": "Chương trình đào tạo chuẩn đầu ra của K63 về sau là",
+        "answers": [
+            {
+                "answerText": "Thời gian đào tạo là 4 năm, 142tc",
+                "isCorrect": true
+            },
+            {
+                "answerText": "Thời gian đào tạo là 5 năm, 164tc",
+                "isCorrect": false
+            },
+            {
+                "answerText": "Thời gian đào tạo là 5 năm, 160tc",
+                "isCorrect": false
+            },
+            {
+                "answerText": "Thời gian đào tạo là 4 năm, 140tc",
+                "isCorrect": false
+            }
+        ]
+    },
+     {
+        "questionNumber": "Câu 26:",
+        "questionText": "Sau 4 học kì sinh viên có điểm TBTL và số tín chỉ tích lũy tương ứng là: HK1(1,6/15tc), hk2(1,6/16tc), hk3(1,4/12tc), hk4(2,2/20tc) là sv năm mấy",
+        "answers": [
+            {
+                "answerText": "2",
+                "isCorrect": false
+            },
+            {
+                "answerText": "3",
+                "isCorrect": true
+            },
+            {
+                "answerText": "4",
+                "isCorrect": false
+            },
+            {
+                "answerText": "Ko xếp hạng",
+                "isCorrect": false
+            }
+        ]
+    },
+     {
+        "questionNumber": "Câu 27:",
+        "questionText": "Sinh viên được xếp hạng sinh viên năm thứ 2 khi khối lượng kiến thức tích lũy là",
+        "answers": [
+            {
+                "answerText": "Từ 32 đến dưới 64 tín",
+                "isCorrect": true
+            },
+            {
+                "answerText": "Từ 64 đến dưới 96 tín",
+                "isCorrect": false
+            },
+            {
+                "answerText": "Từ 90 đến dưới 120 tín",
+                "isCorrect": false
+            },
+            {
+                "answerText": "Từ 128 tín trở lên",
+                "isCorrect": false
+            }
+        ]
+    },
+     {
+        "questionNumber": "Câu 28:",
+        "questionText": "Sinh viên sẽ bị cấm thi lần 1 khi",
+        "answers": [
+            {
+                "answerText": "Không hoàn thành nghĩa vụ đóng học",
+                "isCorrect": false
+            },
+            {
+                "answerText": "Bỏ học trên 20% số giờ quy định",
+                "isCorrect": false
+            },
+            {
+                "answerText": "Ko hoàn thành học phần thực hành hoặc thí nhiệm",
+                "isCorrect": false
+            },
+            {
+                "answerText": "Cả B và C",
+                "isCorrect": true
+            }
+        ]
+    },
+     {
+        "questionNumber": "Câu 29:",
+        "questionText": "Các đợt thi, nội dung thì, và kế hoạch tổ chức trong năm học đánh giá chuẩn đầu ra ngoại ngữ, tin học của Nhà trường được công bố công khai và sinh viên có thể xem tại website nào:",
+        "answers": [
+            {
+                "answerText": "lie humg.edu.vn",
+                "isCorrect": false
+            },
+            {
+                "answerText": "daotao.humg.edu.vn",
+                "isCorrect": false
+            },
+            {
+                "answerText": "ctsv.humg.edu.vn",
+                "isCorrect": false
+            },
+            {
+                "answerText": "cfi humg.edu.vn",
+                "isCorrect": true
+            }
+        ]
+    },
+     {
+        "questionNumber": "Câu 30:",
+        "questionText": "Sinh viên bị kỷ luật ở mức cảnh cáo, điểm rèn luyện sẽ ở mức",
+        "answers": [
+            {
+                "answerText": "Hạ 1 mức",
+                "isCorrect": true
+            },
+            {
+                "answerText": "Hạ 2 mức",
+                "isCorrect": false
+            },
+            {
+                "answerText": "Hạ 2 mức tối đa ở mức trung bình",
+                "isCorrect": false
+            },
+            {
+                "answerText": "Không đánh giá điểm rèn luyện",
+                "isCorrect": false
+            }
+        ]
+    },
+     {
+        "questionNumber": "Câu 31:",
+        "questionText": "Khung năng lực ngoại ngữ bậc 2 của Việt Nam tương ứng với điểm",
+        "answers": [
+            {
+                "answerText": "PET (70-89)",
+                "isCorrect": true
+            },
+            {
+                "answerText": "TOEFL ITP (450)",
+                "isCorrect": false
+            },
+            {
+                "answerText": "KET (70-89)",
+                "isCorrect": false
+            },
+            {
+                "answerText": "IELST (>4.0)",
+                "isCorrect": false
+            }
+        ]
+    },
+     {
+        "questionNumber": "Câu 32:",
+        "questionText": "Để được xét, cấp học bổng loại khuyến khích học tập loại 2, sinh viên cần có đủ những điều kiện nào?",
+        "answers": [
+            {
+                "answerText": "Điểm trung bình chung mở rộng từ 2,5 trở lên, không có học phần bị điểm dưới D+ trong học kỳ, điểm rèn luyện từ 70 trở lên và không bị kỷ luật ở mức khiển trách trở lên.",
+                "isCorrect": true
+            },
+            {
+                "answerText": "Điểm trung bình chung mở rộng từ 2,5 trở lên, điểm rèn luyện từ 70 trở lên và không bị kỷ luật ở mức cảnh cáo trở lên.",
+                "isCorrect": false
+            },
+            {
+                "answerText": "Điểm trung bình chung mở rộng từ 2.5 trở lên, không có học phần bị điểm duới D⁺ trong học kỳ, điểm tên luyện từ 70 trở lên và không bị kỷ luật ở mức cảnh cáo trở lên.",
+                "isCorrect": false
+            },
+            {
+                "answerText": "Điểm trung bình chung mở rộng từ 2,5 trở lên, điểm rèn luyện từ 80 trở lên.",
+                "isCorrect": false
+            }
+        ]
+    },
+     {
+        "questionNumber": "Câu 33:",
+        "questionText": "Nội dung kiểm tra chuẩn đầu ra ngoại ngữ gồm:",
+        "answers": [
+            {
+                "answerText": "Hai phần: phần I: kỹ năng nghe và kỹ năng đọc; phần 2: kỹ năng nói và kỹ năng viết",
+                "isCorrect": true
+            },
+            {
+                "answerText": "Ba phần phần I: kỹ năng nghe nói, phần 2 kỹ năng đọc; phần 3: kỹ năng viết",
+                "isCorrect": false
+            },
+            {
+                "answerText": "Bốn phần kỹ năng nghe; kỹ năng nói, kỹ năng đọc, kỹ năng viết",
+                "isCorrect": false
+            },
+            {
+                "answerText": "Hai phần: phần 1: kỹ năng nghe và kỹ năng nói; phần 2: kỹ năng đọc và kỹ năng viết,",
+                "isCorrect": false
+            }
+        ]
+    },
+     {
+        "questionNumber": "Câu 34:",
+        "questionText": "Sinh viên là người dân tộc thiểu số (không phải dân tộc thiểu số ít người) ở vùng có điều tế - xã hội đặc biệt khó khăn được",
+        "answers": [
+            {
+                "answerText": "Miễn 100% học phí",
+                "isCorrect": false
+            },
+            {
+                "answerText": "Giảm 70% học phí",
+                "isCorrect": true
+            },
+            {
+                "answerText": "Giảm 50% học phí",
+                "isCorrect": false
+            },
+            {
+                "answerText": "Không được miễn giảm",
+                "isCorrect": false
+            }
+        ]
+    },
+     {
+        "questionNumber": "Câu 35:",
+        "questionText": "Đợt đăng ký khối lượng học tập thứ 2 (đợt 2) sẽ được thực hiện vào",
+        "answers": [
+            {
+                "answerText": "Trước khi bắt đầu học kỳ ít nhất 4 tuần",
+                "isCorrect": false
+            },
+            {
+                "answerText": "Trước khi bắt đầu học kỳ 2 tuần",
+                "isCorrect": true
+            },
+            {
+                "answerText": "Trước khi bắt đầu học kỳ ít nhất 1 tuần",
+                "isCorrect": false
+            },
+            {
+                "answerText": "Không có đáp án nào trong các đáp án trên",
+                "isCorrect": false
+            }
+        ]
+    },
+     {
+        "questionNumber": "Câu 36:",
+        "questionText": "Sinh viên xếp hạng tốt nghiệp hạng xuất sắc là sinh viên có điểm trung bình chung đạt",
+        "answers": [
+            {
+                "answerText": "Từ 2.00 đến 2.49",
+                "isCorrect": false
+            },
+            {
+                "answerText": "Từ 2.50 đến 3.19",
+                "isCorrect": false
+            },
+            {
+                "answerText": "Từ 3.20 đến 3.59",
+                "isCorrect": false
+            },
+            {
+                "answerText": "Từ 3.60 đến 4.00",
+                "isCorrect": true
+            }
+        ]
+    },
+     {
+        "questionNumber": "Câu 37:",
+        "questionText": "Sau 4 học kỳ sinh viên có điểm TBTL và số tín chỉ tích lũy tương ứng là: Học kỳ 1 (1,6/18tc), Học kỳ 2 (1,6/16tc), Học kỳ 3(1,4/12tc), Học kỳ 4 (2,2/22tc), sinh viên sẽ được xếp hạng là sinh viên năm thứ.",
+        "answers": [
+            {
+                "answerText": "2",
+                "isCorrect": false
+            },
+            {
+                "answerText": "3",
+                "isCorrect": true
+            },
+            {
+                "answerText": "4",
+                "isCorrect": false
+            },
+            {
+                "answerText": "Không xếp hạng",
+                "isCorrect": false
+            }
+        ]
+    },
+     {
+        "questionNumber": "Câu 38:",
+        "questionText": "Điểm thi kết thúc học phần bằng chữ của sinh viên là C, điểm học phần học phần hệ 10 của sinh viên sẽ trong đải:",
+        "answers": [
+            {
+                "answerText": "5.5 đến 6,49",
+                "isCorrect": true
+            },
+            {
+                "answerText": "4,9 đến 5,49",
+                "isCorrect": false
+            },
+            {
+                "answerText": "5 đến 5,49",
+                "isCorrect": false
+            },
+            {
+                "answerText": "6.5 đến 6,99",
+                "isCorrect": false
+            }
+        ]
+    },
+     {
+        "questionNumber": "Câu 39:",
+        "questionText": "Khối lượng học tập tối thiếu của sinh viên học lực yếu ở học ký chính là",
+        "answers": [
+            {
+                "answerText": "10 tín chỉ",
+                "isCorrect": true
+            },
+            {
+                "answerText": "14 tín chỉ",
+                "isCorrect": false
+            },
+            {
+                "answerText": "18 tín chỉ",
+                "isCorrect": false
+            },
+            {
+                "answerText": "Không quy định",
+                "isCorrect": false
+            }
+        ]
+    },
+     {
+        "questionNumber": "Câu 40:",
+        "questionText": "Căn cứ quy định 2662 về cấp xét học bổng khuyến khích học tập, trừ 2 học kỳ cuối của khóa học, số tín chỉ tối thiểu để sinh viên được xét học bổng khuyến khích học tập là :",
+        "answers": [
+            {
+                "answerText": "Không dưới 14 tin chỉ không tính các tín chỉ các học phần GDTC và GDQP.",
+                "isCorrect": true
+            },
+            {
+                "answerText": "Không dưới 14 tín chỉ.",
+                "isCorrect": false
+            },
+            {
+                "answerText": "Không dưới 10 tin chi",
+                "isCorrect": false
+            },
+            {
+                "answerText": "Không dưới 14 là tín chỉ trong thời khóa biểu của học kỳ,",
+                "isCorrect": false
+            }
+        ]
+    },
+     {
+        "questionNumber": "Câu 41:",
+        "questionText": "Đợt đăng ký dự kiến trước khi bắt đầu học kỳ chính :",
+        "answers": [
+            {
+                "answerText": "2 tuần",
+                "isCorrect": false
+            },
+            {
+                "answerText": "3 tuần",
+                "isCorrect": false
+            },
+            {
+                "answerText": "1 tuần",
+                "isCorrect": false
+            },
+            {
+                "answerText": "4 tuần",
+                "isCorrect": true
+            }
+        ]
+    },
+     {
+        "questionNumber": "Câu 42:",
+        "questionText": "20 sinh viên là số lượng tối thiếu để mở một:",
+        "answers": [
+            {
+                "answerText": "Lớp học phần bắt buộc cho nhiều ngành",
+                "isCorrect": false
+            },
+            {
+                "answerText": "Chuyên ngành đào tạo",
+                "isCorrect": true
+            },
+            {
+                "answerText": "Hướng chuyên sâu",
+                "isCorrect": false
+            },
+            {
+                "answerText": "Lớp học phần tự chọn tự do",
+                "isCorrect": false
+            }
+        ]
+    },
+     {
+        "questionNumber": "Câu 43:",
+        "questionText": "Rút học phần của học kỳ chính bắt đầu từ lúc:",
+        "answers": [
+            {
+                "answerText": "Sau 2 tuần từ lúc bắt đầu học kỳ",
+                "isCorrect": true
+            },
+            {
+                "answerText": "Sau 1 tuần từ lúc bắt đầu học kỳ",
+                "isCorrect": false
+            },
+            {
+                "answerText": "Trước 2 tuần từ lúc bắt đầu học kỳ",
+                "isCorrect": false
+            },
+            {
+                "answerText": "Trước 1 tuần từ lúc bắt đầu học kỳ",
+                "isCorrect": false
+            }
+        ]
+    },
+     {
+        "questionNumber": "Câu 44:",
+        "questionText": "Thời gian học tập không kể thời gian thi của một học kỳ chính có thời lượng:",
+        "answers": [
+            {
+                "answerText": "20 tuần",
+                "isCorrect": false
+            },
+            {
+                "answerText": "16 tuần",
+                "isCorrect": true
+            },
+            {
+                "answerText": "8 tuần",
+                "isCorrect": false
+            },
+            {
+                "answerText": "5 tuần",
+                "isCorrect": false
+            }
+        ]
+    },
+     {
+        "questionNumber": "Câu 45:",
+        "questionText": "Chương trình đào tạo chuẩn của sinh viên HUMG là:",
+        "answers": [
+            {
+                "answerText": "Thời gian đào tạo 4 năm, 142TC",
+                "isCorrect": false
+            },
+            {
+                "answerText": "Thời gian đào tạo 5 năm, 164TC",
+                "isCorrect": false
+            },
+            {
+                "answerText": "Thời gian đào tạo 5 năm 160TC",
+                "isCorrect": false
+            },
+            {
+                "answerText": "Cả A và B.",
+                "isCorrect": true
+            }
+        ]
+    },
+     {
+        "questionNumber": "Câu 46:",
+        "questionText": "Một tín chỉ được quy định là:",
+        "answers": [
+            {
+                "answerText": "15h lý thuyết + 30h thực tập",
+                "isCorrect": false
+            },
+            {
+                "answerText": "15h lý thuyết + 30h thức hành",
+                "isCorrect": false
+            },
+            {
+                "answerText": "45h thực tập",
+                "isCorrect": true
+            },
+            {
+                "answerText": "15h thực tập + 30h tự học",
+                "isCorrect": false
+            }
+        ]
+    },
+     {
+        "questionNumber": "Câu 47:",
+        "questionText": "Một học kì có",
+        "answers": [
+            {
+                "answerText": "3 đợt đăng kí",
+                "isCorrect": true
+            }
+        ]
+    },
+     {
+        "questionNumber": "Câu 48:",
+        "questionText": "Một học phần bắt buộc được điểm C, muốn cải thiện kết quả học tập, sinh viên có thể",
+        "answers": [
+            {
+                "answerText": "Thi lần 2",
+                "isCorrect": false
+            },
+            {
+                "answerText": "Đăng kí học lại học kì chính phụ",
+                "isCorrect": true
+            },
+            {
+                "answerText": "Đăng kí học lại học phần học phần tự chọn",
+                "isCorrect": false
+            },
+            {
+                "answerText": "Ko có phương án",
+                "isCorrect": false
+            }
+        ]
+    },
+     {
+        "questionNumber": "Câu 49:",
+        "questionText": "sau 4 HK sinh viên có điểm TBTL và số tín chỉ tích lũy tương ứng là: HK1 (1,4/15tc), HK2(1,5/16tc), HK3 (1,4/12tc), HK4 (2,2/20tc), điểm TBTL cả quá trình học tập (làm tròn 2 số) của sv sẽ là.",
+        "answers": [
+            {
+                "answerText": "1,64",
+                "isCorrect": false
+            },
+            {
+                "answerText": "1,68",
+                "isCorrect": true
+            },
+            {
+                "answerText": "1,98",
+                "isCorrect": false
+            },
+            {
+                "answerText": "1,82",
+                "isCorrect": false
+            }
+        ]
+    },
+     {
+        "questionNumber": "Câu 50:",
+        "questionText": "sinh viên có điểm c2=7 khi bỏ học",
+        "answers": [
+            {
+                "answerText": "3% số giời quy định",
+                "isCorrect": false
+            },
+            {
+                "answerText": "4% số giời quy định",
+                "isCorrect": false
+            },
+            {
+                "answerText": "5% số giời quy định",
+                "isCorrect": false
+            },
+            {
+                "answerText": "6% số giời quy định",
+                "isCorrect": true
+            }
+        ]
+    },
+     {
+        "questionNumber": "Câu 51:",
+        "questionText": "Hạng tốt nghiệp của sinh viên có kết quả toàn khóa loại xuất sắc và loại giỏi sẽ bị giảm một mức",
+        "answers": [
+            {
+                "answerText": "Có khối lượng các học phần thi lại vượt qua 5% tổng số tín chỉ quy định toàn chương trình",
+                "isCorrect": false
+            },
+            {
+                "answerText": "Có khối lượng các học phần thi lại vượt quá 7% tổng số tín chỉ quy định toàn chương trình",
+                "isCorrect": false
+            },
+            {
+                "answerText": "Đã bị kỷ luật từ cảnh cáo trở lên trong toàn thời gian học",
+                "isCorrect": false
+            },
+            {
+                "answerText": "A or C",
+                "isCorrect": true
+            }
+        ]
+    },
+     {
+        "questionNumber": "Câu 52:",
+        "questionText": "Điều kiện để sinh viên được xét học bổng loại 2 ngoài điều kiện các học phân thi lần 1 có kết quả từ D⁺ trở lên trong học kỳ chính, sinh viên còn cần có trong học kỳ chính",
+        "answers": [
+            {
+                "answerText": "Có điểm TBC lần 1 từ 2.5 điểm rèn luyện từ 70 trở lên",
+                "isCorrect": false
+            },
+            {
+                "answerText": "Có điểm TBC lần 1 từ 3,2 điểm rèn luyện từ 80 trở lên",
+                "isCorrect": false
+            },
+            {
+                "answerText": "Có điểm TBC lần từ 2,5 điểm rèn luyện từ 70 trở lên và không bị kỷ luật từ khiến trách trở lên",
+                "isCorrect": true
+            },
+            {
+                "answerText": "Có điểm TBC lần 1 từ 3.2 điểm rèn luyện từ 80 trở lên và không bị kỷ luật từ khiển trách trở lên",
+                "isCorrect": false
+            }
+        ]
+    },
+     {
+        "questionNumber": "Câu 53:",
+        "questionText": "Hoãn học phần được thực hiện:",
+        "answers": [
+            {
+                "answerText": "Bằng giấy có chữ ký của cố vấn học tập",
+                "isCorrect": false
+            },
+            {
+                "answerText": "Bằng giấy có xác nhận của giáo viên giảng dạy môn học",
+                "isCorrect": false
+            },
+            {
+                "answerText": "Online trong đợt đăng ký binh thường",
+                "isCorrect": false
+            },
+            {
+                "answerText": "Bằng giấy có xác nhận của Khoa chủ quản học phần",
+                "isCorrect": true
+            }
+        ]
+    },
+     {
+        "questionNumber": "Câu 54:",
+        "questionText": "Sinh viên sẽ bị cấm thi lần 1 khi",
+        "answers": [
+            {
+                "answerText": "Không hoàn thành nghĩa vụ đóng học phi",
+                "isCorrect": false
+            },
+            {
+                "answerText": "Bỏ học trên 20% số giờ quy định",
+                "isCorrect": false
+            },
+            {
+                "answerText": "Không hoàn thành phần thực hành hoặc thí nghiệm (nếu có) của học phần",
+                "isCorrect": false
+            },
+            {
+                "answerText": "Cả đáp án B và C.",
+                "isCorrect": true
+            }
+        ]
+    },
+     {
+        "questionNumber": "Câu 55:",
+        "questionText": "Sinh viên được phân loại kết quả rèn luyện loại tốt khi có điểm rèn luyện",
+        "answers": [
+            {
+                "answerText": "Từ 80 đến 89",
+                "isCorrect": true
+            },
+            {
+                "answerText": "Từ 85 đến 89",
+                "isCorrect": false
+            },
+            {
+                "answerText": "Từ 70 đến 80",
+                "isCorrect": false
+            },
+            {
+                "answerText": "Từ 60 đến 70",
+                "isCorrect": false
+            }
+        ]
+    },
+     {
+        "questionNumber": "Câu 56:",
+        "questionText": "Sinh viên có điểm trung bình chung học kỳ đạt 3,32, học kỳ đó sinh viên được xếp học lực",
+        "answers": [
+            {
+                "answerText": "Khi",
+                "isCorrect": false
+            },
+            {
+                "answerText": "Trung bình",
+                "isCorrect": false
+            },
+            {
+                "answerText": "Giỏi",
+                "isCorrect": true
+            },
+            {
+                "answerText": "Xuất xắc",
+                "isCorrect": false
+            }
+        ]
+    },
+     {
+        "questionNumber": "Câu 57:",
+        "questionText": "Khối lượng học tập tối thiểu của sinh viên học lực yếu ở học kỳ phụ là",
+        "answers": [
+            {
+                "answerText": "10 tín chỉ",
+                "isCorrect": false
+            },
+            {
+                "answerText": "14 tín chỉ",
+                "isCorrect": false
+            },
+            {
+                "answerText": "18 tín chỉ",
+                "isCorrect": false
+            },
+            {
+                "answerText": "Không quy định được",
+                "isCorrect": true
+            }
+        ]
+    },
+     {
+        "questionNumber": "Câu 58:",
+        "questionText": "Sinh viên có học phần GDTC được D+, SV đăng ký thi cải thiện và được F, điểm TBTL lần 1 trên 2.5 và các học phần khác không có điểm dưới D⁺, khi xét học bổng SV sẽ:",
+        "answers": [
+            {
+                "answerText": "Không được xét học",
+                "isCorrect": false
+            },
+            {
+                "answerText": "Xét học bổng loại 2",
+                "isCorrect": true
+            }
+        ]
+    },
+     {
+        "questionNumber": "Câu 59:",
+        "questionText": "Trường hợp nào sau đây là đúng nhất bị tính số tín chỉ của học phần vào % hạ bằng theo quy chế:",
+        "answers": [
+            {
+                "answerText": "Sinh viên học một học phần bị D và học lại được C",
+                "isCorrect": false
+            },
+            {
+                "answerText": "Sinh viên học một học phần bị F và học lại được C",
+                "isCorrect": false
+            },
+            {
+                "answerText": "Sinh viên học một học phần thuộc chương trình đào tạo bị F ở lần 1 và học lại được B ở lần 2",
+                "isCorrect": false
+            },
+            {
+                "answerText": "Cả đáp án B và đáp án C.",
+                "isCorrect": true
+            }
+        ]
+    },
+     {
+        "questionNumber": "Câu 60:",
+        "questionText": "Sinh viên có thời gian nghi ốm trên 2 năm sẽ",
+        "answers": [
+            {
+                "answerText": "Bị tính vào thời gian học tập tại trường.",
+                "isCorrect": true
+            },
+            {
+                "answerText": "Không bị tính vào thời gian học tập tại trường",
+                "isCorrect": false
+            },
+            {
+                "answerText": "Không được phép nghỉ ôm quá 2 năm",
+                "isCorrect": false
+            },
+            {
+                "answerText": "Không có đáp án nào đúng.",
+                "isCorrect": false
+            }
+        ]
+    },
+     {
+        "questionNumber": "Câu 61:",
+        "questionText": "Điểm thì kết thúc học phần bằng chữ của sinh viên là A⁺, điểm học phần học phần hệ 10 của sinh viên sẽ trong dải:",
+        "answers": [
+            {
+                "answerText": "9 đến 10",
+                "isCorrect": true
+            },
+            {
+                "answerText": "7 đến 7,99",
+                "isCorrect": false
+            },
+            {
+                "answerText": "8,5 đến 10",
+                "isCorrect": false
+            },
+            {
+                "answerText": "9,5 đến 10.",
+                "isCorrect": false
+            }
+        ]
+    },
+     {
+        "questionNumber": "Câu 62:",
+        "questionText": "Một tín chỉ được quy định là",
+        "answers": [
+            {
+                "answerText": "15h tự học+15h thực hành",
+                "isCorrect": false
+            },
+            {
+                "answerText": "15h lý thuyết +30h thực hành",
+                "isCorrect": false
+            },
+            {
+                "answerText": "15h lý thuyết + 30h tự học",
+                "isCorrect": true
+            },
+            {
+                "answerText": "15h thực tập",
+                "isCorrect": false
+            }
+        ]
+    },
+     {
+        "questionNumber": "Câu 63:",
+        "questionText": "Thời gian học tập tối đa với khóa học 4 năm khi thời gian nghỉ ốm dưới 2 năm là",
+        "answers": [
+            {
+                "answerText": "4 năm và 4 học kỳ không tính thời gian nghỉ ốm",
+                "isCorrect": false
+            },
+            {
+                "answerText": "4 năm và 4 học kỳ tính cả thời gian nghỉ ốm",
+                "isCorrect": false
+            },
+            {
+                "answerText": "8 năm",
+                "isCorrect": false
+            },
+            {
+                "answerText": "6 năm",
+                "isCorrect": true
+            }
+        ]
+    },
+     {
+        "questionNumber": "Câu 63:",
+        "questionText": "“Tín chỉ” được Luật Giáo dục năm 2019 quy định như thế nào?",
+        "answers": [
+            {
+                "answerText": "Là đơn vị dùng để đo lường khối lượng kiến thức, kỹ năng và kết quả học tập đã tích lũy được trong một khoảng thời gian nhất định.",
+                "isCorrect": false
+            },
+            {
+                "answerText": "Là đơn yêu cầu cần đạt về phẩm chất và năng lực của người học sau khi hoàn thành một chương trình giáo dục",
+                "isCorrect": false
+            },
+            {
+                "answerText": "Là đơn vị học tập được tích hợp giữa kiến thức, kỹ năng và thái độ một cách hoàn chỉnh nhằm giúp cho người học có năng lực thực hiện trọn vẹn một hoặc một số công việc của một nghề.",
+                "isCorrect": true
+            },
+            {
+                "answerText": "Là hình thức tổ chức quá trình giáo dục, đào tạo.",
+                "isCorrect": false
+            }
+        ]
+    },
+     {
+        "questionNumber": "Câu 65:",
+        "questionText": "Sinh viên xin xác nhận các giấy tờ miễn giảm, chế độ chính sách học sinh viên viên tại:",
+        "answers": [
+            {
+                "answerText": "Phòng Đào tạo đại học C202",
+                "isCorrect": false
+            },
+            {
+                "answerText": "Phòng Công tác chính trị sinh viên A113",
+                "isCorrect": true
+            },
+            {
+                "answerText": "Phòng Kế hoạch tài chính C314",
+                "isCorrect": false
+            },
+            {
+                "answerText": "Bộ phận 1 của C103.",
+                "isCorrect": false
+            }
+        ]
+    },
+     {
+        "questionNumber": "Câu 66:",
+        "questionText": "Một trong các điều kiện để sinh viên được cấp giấy khen của Hiệu trưởng đó là:",
+        "answers": [
+            {
+                "answerText": "Kết quả lần 1 các học phần (trừ GDTC và GDQP) từ D+ trở lên",
+                "isCorrect": false
+            },
+            {
+                "answerText": "Kết quả lần 1 các học phần (trừ GDTC và GDQP) từ C trở lên.",
+                "isCorrect": false
+            },
+            {
+                "answerText": "Kết quả lần 1 các học phần tử D+ trở lên.",
+                "isCorrect": false
+            },
+            {
+                "answerText": "Kết quả lần 1 các học phần tử C trở lên.",
+                "isCorrect": true
+            }
+        ]
+    },
+     {
+        "questionNumber": "Câu 67:",
+        "questionText": "Điểm học phần thực tập tốt nghiệp (TTTN) của sinh viên bằng 8,5 sinh viên sẽ:",
+        "answers": [
+            {
+                "answerText": "Được tính điểm học phần bằng A và điểm TBTL của cả quá trình học tập",
+                "isCorrect": false
+            },
+            {
+                "answerText": "Được tính là đạt học phần TTTN và không tính điểm học phần vào điểm TBTL cả quá trình học tập.",
+                "isCorrect": false
+            },
+            {
+                "answerText": "Được tính tích lũy 04 tín chỉ vào số tín chỉ tích lũy",
+                "isCorrect": true
+            },
+            {
+                "answerText": "Cả đáp án B và C.",
+                "isCorrect": false
+            }
+        ]
+    },
+     {
+        "questionNumber": "Câu 69:",
+        "questionText": "Trường hợp nào sinh viên được xét bảo lưu kết quả học tập (nghỉ học tạm thời là)",
+        "answers": [
+            {
+                "answerText": "Sinh viên bị điều động vào các lực lượng vũ trang",
+                "isCorrect": false
+            },
+            {
+                "answerText": "Sinh viên bị ốm có xác nhận của cơ quan y tế",
+                "isCorrect": false
+            },
+            {
+                "answerText": "Vì nhu cầu cá nhân, sinh viên phải có TBCTL không dưới 2.0",
+                "isCorrect": false
+            },
+            {
+                "answerText": "Tất cả các đáp án trên.",
+                "isCorrect": true
+            }
+        ]
+    },
+     {
+        "questionNumber": "Câu 70:",
+        "questionText": "Với khóa học 4 năm của sinh viên, khi thời gian nghỉ ốm trên 2 năm thì",
+        "answers": [
+            {
+                "answerText": "Thời gian nghỉ ốm không tính vào thời gian học tập tại trường",
+                "isCorrect": true
+            },
+            {
+                "answerText": "Thời gian nghỉ ốm tính vào thời gian học tập tại trường",
+                "isCorrect": false
+            },
+            {
+                "answerText": "Thời gian học tập tối đa của khóa học là 4 năm và 4 học kỳ không tính thời gian nghỉ ốm này",
+                "isCorrect": false
+            },
+            {
+                "answerText": "Thời gian học tập tối đa của khoa học là 6 năm không tính thời gian nghỉ ốm này",
+                "isCorrect": false
+            }
+        ]
+    },
+     {
+        "questionNumber": "Câu 71:",
+        "questionText": "30 sinh viên là số lượng tối thiểu để mở một:",
+        "answers": [
+            {
+                "answerText": "Ngành đào tạo",
+                "isCorrect": false
+            },
+            {
+                "answerText": "Lớp học phần học chung của nhiều ngành",
+                "isCorrect": true
+            },
+            {
+                "answerText": "Lớp học phần chuyên ngành",
+                "isCorrect": false
+            },
+            {
+                "answerText": "Lớp học phần tự chọn tự do",
+                "isCorrect": false
+            }
+        ]
+    },
+     {
+        "questionNumber": "Câu 72:",
+        "questionText": "Sinh viên đủ điều kiện để được xét và công nhận tốt nghiệp khi:",
+        "answers": [
+            {
+                "answerText": "Tích lũy đủ khối lượng học phần và số tín chỉ tối thiểu của chương trình đào tạo",
+                "isCorrect": false
+            },
+            {
+                "answerText": "Điểm TBTL từ 2.0 trở lên",
+                "isCorrect": false
+            },
+            {
+                "answerText": "Có đủ 04 chứng chỉ: Ngoại ngữ, tin học, GDTC, GDQP",
+                "isCorrect": false
+            },
+            {
+                "answerText": "Tất cả các đáp án trên",
+                "isCorrect": true
+            }
+        ]
+    },
+     {
+        "questionNumber": "Câu 73:",
+        "questionText": "Điểm thi kết thúc học phần hệ 10 của sinh viên là 5,3 điểm học phần hệ 4 của sinh viên là:",
+        "answers": [
+            {
+                "answerText": "2",
+                "isCorrect": false
+            },
+            {
+                "answerText": "2,5",
+                "isCorrect": false
+            },
+            {
+                "answerText": "1,5",
+                "isCorrect": true
+            },
+            {
+                "answerText": "1",
+                "isCorrect": false
+            }
+        ]
+    },
+     {
+        "questionNumber": "Câu 74:",
+        "questionText": "Số lượng sinh viên tối thiểu để mở lớp học phần chung của nhiều ngành",
+        "answers": [
+            {
+                "answerText": "40sv",
+                "isCorrect": false
+            },
+            {
+                "answerText": "30sv",
+                "isCorrect": true
+            },
+            {
+                "answerText": "20sv",
+                "isCorrect": false
+            },
+            {
+                "answerText": "Ko có đáp án đúng",
+                "isCorrect": false
+            }
+        ]
+    },
+     {
+        "questionNumber": "Câu 75:",
+        "questionText": "Thời gian học tập không kể thời gian thi của 1 kì chính có thời lượng",
+        "answers": [
+            {
+                "answerText": "20 tuần",
+                "isCorrect": false
+            },
+            {
+                "answerText": "16 tuần",
+                "isCorrect": true
+            },
+            {
+                "answerText": "8 tuần",
+                "isCorrect": false
+            },
+            {
+                "answerText": "5 tuần",
+                "isCorrect": false
+            }
+        ]
+    },
+     {
+        "questionNumber": "Câu 76:",
+        "questionText": "Tiết 11 bắt đầu học từ mấy giờ",
+        "answers": [
+            {
+                "answerText": "17h30",
+                "isCorrect": true
+            }
+        ]
+    },
+     {
+        "questionNumber": "Câu 77:",
+        "questionText": "Sinh viên là người dân tộc thiểu số thuộc hộ nghèo theo quy định của thủ tưỡng chính phủ được",
+        "answers": [
+            {
+                "answerText": "Miễn 100% học phí",
+                "isCorrect": true
+            },
+            {
+                "answerText": "Giảm 70% học phí",
+                "isCorrect": false
+            },
+            {
+                "answerText": "Giảm 50% học phí",
+                "isCorrect": false
+            },
+            {
+                "answerText": "Không được miễn giảm",
+                "isCorrect": false
+            }
+        ]
+    },
+     {
+        "questionNumber": "Câu 78:",
+        "questionText": "Học phần A phải học và đạt trước học phần B, học phần A được gọi là",
+        "answers": [
+            {
+                "answerText": "Học phần tiên quyết của học phần B",
+                "isCorrect": true
+            }
+        ]
+    },
+     {
+        "questionNumber": "Câu 79:",
+        "questionText": "Sinh viên vô lễ với thầy cô và CBCC nhà trường lần thứ 3 hình thức kỉ luật",
+        "answers": [
+            {
+                "answerText": "Kiển trách",
+                "isCorrect": false
+            },
+            {
+                "answerText": "Cảnh cáo",
+                "isCorrect": false
+            },
+            {
+                "answerText": "Đình chỉ học tập 1 năm",
+                "isCorrect": true
+            },
+            {
+                "answerText": "Buộc thôi học",
+                "isCorrect": false
+            }
+        ]
+    },
+     {
+        "questionNumber": "Câu 79:",
+        "questionText": "Rút học phần học kì chính bắt đầu từ lúc",
+        "answers": [
+            {
+                "answerText": "Sau 2 tuần từ lúc bắt đầu học tập",
+                "isCorrect": true
+            },
+            {
+                "answerText": "Sau 1 tuần từ lúc bắt đầu học tập",
+                "isCorrect": false
+            },
+            {
+                "answerText": "Sau 4 tuần từ lúc bắt đầu học tập",
+                "isCorrect": false
+            },
+            {
+                "answerText": "Sau 3 tuần từ lúc bắt đầu học tập",
+                "isCorrect": false
+            }
+        ]
+    },
+     {
+        "questionNumber": "Câu 80:",
+        "questionText": "Đăng kí thường được được thực hiện",
+        "answers": [
+            {
+                "answerText": "Trước thời điểm bắt đầu học kì ít nhất 3 tuần",
+                "isCorrect": false
+            },
+            {
+                "answerText": "Trước thời điểm bắt đầu học kì ít nhất 2 tuần",
+                "isCorrect": true
+            },
+            {
+                "answerText": "Trước thời điểm bắt đầu học kì ít nhất 1 tuần",
+                "isCorrect": false
+            },
+            {
+                "answerText": "Trong 2 tuần đầu của học kì chính",
+                "isCorrect": false
+            }
+        ]
+    },
+     {
+        "questionNumber": "Câu 81:",
+        "questionText": "Người chịu trách nghiệm chính và đầu tiên đánh giá điểm rèn luyện của sinh viên là",
+        "answers": [
+            {
+                "answerText": "Giáo viên chủ nghiệm",
+                "isCorrect": true
+            },
+            {
+                "answerText": "Lãnh đạo bộ môn",
+                "isCorrect": false
+            },
+            {
+                "answerText": "Lãnh đạo khoa chủ quản",
+                "isCorrect": false
+            },
+            {
+                "answerText": "Phòng công tác sinh viên",
+                "isCorrect": false
+            }
+        ]
+    },
+     {
+        "questionNumber": "Câu 82:",
+        "questionText": "Khi một học phần trong bảng điểm học kỳ có ký hiệu “R” khi đó học phần này được hiểu là:",
+        "answers": [
+            {
+                "answerText": "Học phần được rút, sẽ bị tính 0 điểm vào điểm TBHK, sinh viên phải đóng học phí học phần này.",
+                "isCorrect": false
+            },
+            {
+                "answerText": "Học phần đã học đạt rồi, không cần học lại, sinh viên không cần đóng học phí học phần này.",
+                "isCorrect": false
+            },
+            {
+                "answerText": "Học phần đã rút, không tính vào điểm TBHK, sinh viên không cần đóng học phí học phần này.",
+                "isCorrect": false
+            },
+            {
+                "answerText": "Học phần đã rút, không tính vào điểm TBHK, sinh viên phải đóng học phí học phần này.",
+                "isCorrect": true
+            }
+        ]
+    },
+     {
+        "questionNumber": "Câu 83:",
+        "questionText": "Ở bảng điểm của sinh viên như hình dưới, học phần “Đường lối cách mạng của Đảng Cộng Sản Việt Nam có điểm hệ 10 nằm trong dải:",
+        "answers": [
+            {
+                "answerText": "4,0 đến 5,49",
+                "isCorrect": false
+            },
+            {
+                "answerText": "5,0 đến 6,49",
+                "isCorrect": false
+            },
+            {
+                "answerText": "5,0 đến 5,49",
+                "isCorrect": true
+            },
+            {
+                "answerText": "4,0 đến 4,49",
+                "isCorrect": false
+            }
+        ]
+    },
+     {
+        "questionNumber": "Câu 84:",
+        "questionText": "Bảng điểm học kỳ của sinh viên như hình dưới. SV được coi là tích lũy bao nhiêu tín chỉ nếu coi tất cả các môn học đều thuộc chương trình đào tạo",
+        "answers": [
+            {
+                "answerText": "17 tín chỉ",
+                "isCorrect": false
+            },
+            {
+                "answerText": "15 tín chỉ",
+                "isCorrect": true
+            },
+            {
+                "answerText": "13 tín chỉ",
+                "isCorrect": false
+            },
+            {
+                "answerText": "Không xác định được số tín chỉ tích luỹ",
+                "isCorrect": false
+            }
+        ]
+    },
+     {
+        "questionNumber": "Câu 85:",
+        "questionText": "Đại hội đại biểu toàn quốc lần thứ XIII của Đảng đã xác định mục tiêu tổng quát: Phấn đấu đến giữa thế kỷ XXI, nước ta trở thành nước như thế nào?",
+        "answers": [
+            {
+                "answerText": "Nước đang phát triển, theo định hướng xã hội chủ nghĩa",
+                "isCorrect": false
+            },
+            {
+                "answerText": "Nước phát triển cao, theo định hướng xã hội chủ nghĩa.",
+                "isCorrect": false
+            },
+            {
+                "answerText": "Nước phát triển, theo định hướng xã hội chủ nghĩa.",
+                "isCorrect": true
+            },
+            {
+                "answerText": "Nước phát triển, công nghiệp hiện đại.",
+                "isCorrect": false
+            }
+        ]
+    },
+     {
+        "questionNumber": "Câu 86:",
+        "questionText": "Thời gian học tập không kể thời gian thi của học kỳ phụ là:",
+        "answers": [
+            {
+                "answerText": "8 tuần",
+                "isCorrect": false
+            },
+            {
+                "answerText": "6 tuần",
+                "isCorrect": false
+            },
+            {
+                "answerText": "5 tuần.",
+                "isCorrect": false
+            },
+            {
+                "answerText": "16 tuần",
+                "isCorrect": true
+            }
+        ]
+    },
+     {
+        "questionNumber": "Câu 87:",
+        "questionText": "Sinh viên là người dân tộc thiểu số (không phải dân tộc thiểu số ít người) ở vùng có điều kiện kinh tế - xã hội đặc biệt khó khăn được",
+        "answers": [
+            {
+                "answerText": "Miễn 100% học phí",
+                "isCorrect": false
+            },
+            {
+                "answerText": "Giảm 70% học phí",
+                "isCorrect": true
+            },
+            {
+                "answerText": "Giảm 50% học phí",
+                "isCorrect": false
+            },
+            {
+                "answerText": "Không được miễn giảm",
+                "isCorrect": false
+            }
+        ]
+    },
+     {
+        "questionNumber": "Câu 88:",
+        "questionText": "Theo Hồ Chí Minh, đại đoàn kết toàn dân tộc là",
+        "answers": [
+            {
+                "answerText": "đường lối chiến lược quyết định thành công của cách mạng Việt Nam",
+                "isCorrect": false
+            },
+            {
+                "answerText": "vấn đề mang tính sách lược.",
+                "isCorrect": false
+            },
+            {
+                "answerText": "chủ trương lâu dài, xuyên suốt của Đảng",
+                "isCorrect": true
+            },
+            {
+                "answerText": "vấn đề mang tính khách quan của quần chúng nhân dân.",
+                "isCorrect": false
+            }
+        ]
+    },
+     {
+        "questionNumber": "Câu 89:",
+        "questionText": "Sinh viên được xếp hạng năm đào tạo là năm 4 khi có số tín chỉ tích lũy:",
+        "answers": [
+            {
+                "answerText": "Từ 96 đến dưới 128 tín chỉ",
+                "isCorrect": true
+            },
+            {
+                "answerText": "Từ 65 đến dưới 96 tín chỉ",
+                "isCorrect": false
+            },
+            {
+                "answerText": "Từ 64 đến dưới 96 tín chỉ",
+                "isCorrect": false
+            },
+            {
+                "answerText": "Từ 95 đến 127 tín chỉ",
+                "isCorrect": false
+            }
+        ]
+    },
+     {
+        "questionNumber": "Câu 90:",
+        "questionText": "Sau 4 học kỳ sinh viên có điểm TBTL và số tín chỉ tích lũy tương ứng là: Học kỳ 1 (1,4/15tc), Học kỳ 2 (1,6/18tc), Học kỳ 3 (1,4/12tc), Học kỳ 4 (2,2/20tc), điểm TBTL cả quá trình học tập (làm tròn 2 chữ số) của sinh viên sẽ là:",
+        "answers": [
+            {
+                "answerText": "1,64",
+                "isCorrect": false
+            },
+            {
+                "answerText": "1,68",
+                "isCorrect": false
+            },
+            {
+                "answerText": "1,7",
+                "isCorrect": true
+            },
+            {
+                "answerText": "1,82",
+                "isCorrect": false
+            }
+        ]
+    },
+     {
+        "questionNumber": "Câu 91:",
+        "questionText": "Điểm rèn luyện của sinh viên được sử dụng để",
+        "answers": [
+            {
+                "answerText": "Xét học bổng",
+                "isCorrect": false
+            },
+            {
+                "answerText": "Xét xử lý học tập",
+                "isCorrect": false
+            },
+            {
+                "answerText": "Xét phân hạng tốt nghiệp",
+                "isCorrect": false
+            },
+            {
+                "answerText": "Dùng tất cả cho các mục đích trên",
+                "isCorrect": true
+            }
+        ]
+    },
+     {
+        "questionNumber": "Câu 92:",
+        "questionText": "Định hướng các chỉ tiêu chủ yếu về phát triển kinh tế - xã hội 5 năm 2021 - 2025 trong Báo cáo chính trị tại Đại hội XIII của Đảng nêu: Đến năm 2025, GDP bình quân đầu người khoảng?",
+        "answers": [
+            {
+                "answerText": "3000-4000 USD",
+                "isCorrect": false
+            },
+            {
+                "answerText": "4000-4500 USD",
+                "isCorrect": false
+            },
+            {
+                "answerText": "4700-5000 USD",
+                "isCorrect": true
+            },
+            {
+                "answerText": "5000 5200 USD",
+                "isCorrect": false
+            }
+        ]
+    },
+     {
+        "questionNumber": "Câu 93   :",
+        "questionText": "Đại hội đại biểu toàn quốc lần thứ XIII của Đảng Cộng sản Việt Nam họp từ ngày?",
+        "answers": [
+            {
+                "answerText": "24/01 đến 01/02/2021",
+                "isCorrect": false
+            },
+            {
+                "answerText": "25/01 đến 01/02/2021",
+                "isCorrect": true
+            },
+            {
+                "answerText": "25/02 đến 01/03/2021",
+                "isCorrect": false
+            },
+            {
+                "answerText": "15/01 đến 22/01/2021",
+                "isCorrect": false
+            }
+        ]
+    },
+     {
+        "questionNumber": "Câu 94:",
+        "questionText": "Điều kiện cần để cấp công lệnh thực tập tốt nghiệp, sinh viên phải:",
+        "answers": [
+            {
+                "answerText": "Có điểm trung bình tích lũy của toàn bộ quá trình học tập từ 2.0 trở lên",
+                "isCorrect": true
+            },
+            {
+                "answerText": "Hoàn thành chứng chỉ giáo dục thể chất và giáo dục quốc phòng",
+                "isCorrect": false
+            },
+            {
+                "answerText": "Hoàn thành chuẩn đầu ra ngoại ngữ và tin học.",
+                "isCorrect": false
+            },
+            {
+                "answerText": "Cả 3 điều kiện trên.",
+                "isCorrect": false
+            }
+        ]
+    },
+     {
+        "questionNumber": "Câu 95:",
+        "questionText": "Từ năm học 2019-2020, một học phần tự chọn tự do được điểm C+, muốn cải thiện kết quả học tập, sinh viên có thể:",
+        "answers": [
+            {
+                "answerText": "Thi lần 2",
+                "isCorrect": false
+            },
+            {
+                "answerText": "Đăng ký học học phần tự chọn khác cùng danh mục trong các học kỳ tiếp theo",
+                "isCorrect": true
+            },
+            {
+                "answerText": "Đăng ký học lại học phần tự chọn chuyên ngành khác",
+                "isCorrect": false
+            },
+            {
+                "answerText": "Cả 3 hình thức trên",
+                "isCorrect": false
+            }
+        ]
+    },
+     {
+        "questionNumber": "Câu 96:",
+        "questionText": "Theo Hồ Chí Minh, điều kiện của đại đoàn kết dân tộc là:",
+        "answers": [
+            {
+                "answerText": "Kế thừa truyền thống yêu nước - nhân nghĩa - đoàn kết của dân tộc.",
+                "isCorrect": false
+            },
+            {
+                "answerText": "Có lòng khoan dung, độ lượng với con người.",
+                "isCorrect": false
+            },
+            {
+                "answerText": "Tin vào nhân dân, tin vào con người.",
+                "isCorrect": false
+            },
+            {
+                "answerText": "Cả 3 đáp án trên",
+                "isCorrect": true
+            }
+        ]
+    },
+     {
+        "questionNumber": "Câu 97:",
+        "questionText": "Sinh viên nghỉ học 20% số giờ quy định có điểm c2 bằng:",
+        "answers": [
+            {
+                "answerText": "0",
+                "isCorrect": true
+            },
+            {
+                "answerText": "2",
+                "isCorrect": false
+            },
+            {
+                "answerText": "1",
+                "isCorrect": false
+            },
+            {
+                "answerText": "không có điểm c2 (cấm thi)",
+                "isCorrect": false
+            }
+        ]
+    },
+     {
+        "questionNumber": "Câu 98:",
+        "questionText": "Sinh viên sẽ bị cảnh báo học tập mức 2 khi:",
+        "answers": [
+            {
+                "answerText": "Không đạt trên 80% số tín chỉ của học kỳ và có điểm trung bình học kỳ dưới 0,4",
+                "isCorrect": false
+            },
+            {
+                "answerText": "Không đạt trên 80% số tín chỉ của học kỳ và có điểm trung bình học kỳ dưới 0,4 hoặc không đăng ký khối lượng học tập",
+                "isCorrect": false
+            },
+            {
+                "answerText": "Không đạt trên 80% số tín chỉ của học kỳ hoặc có điểm trung bình học kỳ dưới 0,4 hoặc không đăng ký khối lượng học tập.",
+                "isCorrect": true
+            },
+            {
+                "answerText": "Không đạt từ 60% đến 80% số tín chỉ của học kỳ hoặc có điểm trung bình học kỳ dưới 0,4 hoặc không đăng ký khối lượng học tập.",
+                "isCorrect": false
+            }
+        ]
+    },
+     {
+        "questionNumber": "Câu 99:",
+        "questionText": "Với khóa học 4 năm của sinh viên, khi thời gian nghỉ ốm trên 2 năm thì:",
+        "answers": [
+            {
+                "answerText": "Thời gian nghỉ ốm không tính vào thời gian học tập tại trường",
+                "isCorrect": false
+            },
+            {
+                "answerText": "Thời gian nghỉ ốm tính vào thời gian học tập tại trường",
+                "isCorrect": false
+            },
+            {
+                "answerText": "Thời gian học tập tối đa của khóa học là 4 năm và 4 học kỳ không tính thời gian nghỉ ốm này",
+                "isCorrect": false
+            },
+            {
+                "answerText": "Thời gian học tập tối đa của khóa học là 6 năm không tính thời gian nghỉ ốm này",
+                "isCorrect": true
+            }
+        ]
+    },
+    {
+        "questionNumber": "Câu 100:",
+        "questionText": "Sinh viên xếp hạng tốt nghiệp hạng xuất sắc là sinh viên phải có điểm trung bình chung đạt:",
+        "answers": [
+            {
+                "answerText": "Từ 2.00 đến 2.49",
+                "isCorrect": false
+            },
+            {
+                "answerText": "Từ 2.50 đến 3.19",
+                "isCorrect": false
+            },
+            {
+                "answerText": "Từ 3.20 đến 3.59",
+                "isCorrect": false
+            },
+            {
+                "answerText": "Từ 3.60 đến 4.00",
+                "isCorrect": true
+            }
+        ]
+    },
+    {
+        "questionNumber": "Câu 101:",
+        "questionText": "Công lệnh thực tập tốt nghiệp của sinh viên do",
+        "answers": [
+            {
+                "answerText": "Khoa chủ quản cấp",
+                "isCorrect": false
+            },
+            {
+                "answerText": "Phòng Đào tạo Đại học cấp",
+                "isCorrect": false
+            },
+            {
+                "answerText": "Khoa chủ quản cấp có chữ ký của GVHD đồ án tốt nghiệp",
+                "isCorrect": true
+            },
+            {
+                "answerText": "Sinh viên thực tập chỉ cần giấy giới thiệu, không cần công lệnh",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionNumber": "Câu 102:",
+        "questionText": "Theo quy chế 768, một học kỳ chính được:",
+        "answers": [
+            {
+                "answerText": "Chia thành 2 nửa mỗi nửa gồm 7 tuần học tập:",
+                "isCorrect": false
+            },
+            {
+                "answerText": "Có 2 đợt thi mỗi đợt thi kéo dài 1 tuần;",
+                "isCorrect": false
+            },
+            {
+                "answerText": "Chia thành 2 nửa mỗi nửa gồm 6 tuần học tập;",
+                "isCorrect": false
+            },
+            {
+                "answerText": "Kéo dài 20 tuần",
+                "isCorrect": true
+            }
+        ]
+    },
+    {
+        "questionNumber": "Câu 103:",
+        "questionText": "Theo quy chế 768, học phần bắt buộc có kết quả (dạng chữ) bao nhiêu thì sinh viên được quyền học lại để cải thiện điểm:",
+        "answers": [
+            {
+                "answerText": "Kết quả dưới B",
+                "isCorrect": false
+            },
+            {
+                "answerText": "Từ D trở xuống",
+                "isCorrect": false
+            },
+            {
+                "answerText": "Từ D+ trở xuống",
+                "isCorrect": false
+            },
+            {
+                "answerText": "Từ C trở xuống.",
+                "isCorrect": true
+            }
+        ]
+    },
+    {
+        "questionNumber": "Câu 104:",
+        "questionText": "Sinh viên nghỉ học 18% số giờ quy định có điểm c2 bằng",
+        "answers": [
+            {
+                "answerText": "0",
+                "isCorrect": false
+            },
+            {
+                "answerText": "2",
+                "isCorrect": true
+            },
+            {
+                "answerText": "1",
+                "isCorrect": false
+            },
+            {
+                "answerText": "không có điểm c2 (cấm thi)",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionNumber": "Câu 105:",
+        "questionText": "Sinh viên học hộ ở lần thứ 3 sẽ chịu hình thức kỷ luật",
+        "answers": [
+            {
+                "answerText": "Khiển trách",
+                "isCorrect": false
+            },
+            {
+                "answerText": "Cảnh cáo",
+                "isCorrect": false
+            },
+            {
+                "answerText": "Đình chỉ học tập 1 năm",
+                "isCorrect": false
+            },
+            {
+                "answerText": "Buộc thôi học",
+                "isCorrect": true
+            }
+        ]
+    },
+    {
+        "questionNumber": "Câu 106:",
+        "questionText": "Số tín chỉ tối đa sinh viên có học lực bình thường được đăng ký trong một học kỳ là:",
+        "answers": [
+            {
+                "answerText": "Từ 18 đến 27 tin chỉ",
+                "isCorrect": false
+            },
+            {
+                "answerText": "Không quá 18 tín chỉ",
+                "isCorrect": false
+            },
+            {
+                "answerText": "Không hạn chế",
+                "isCorrect": true
+            },
+            {
+                "answerText": "Không quá 27 tín chỉ.",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionNumber": "Câu 107:",
+        "questionText": "Điểm thi kết thúc học phần bằng chữ của sinh viên là B+, điểm học phần học phần hệ 10 của sinh viên sẽ trong dải:",
+        "answers": [
+            {
+                "answerText": "6,5 đến 6,99",
+                "isCorrect": false
+            },
+            {
+                "answerText": "8,0 đến 8,49",
+                "isCorrect": true
+            },
+            {
+                "answerText": "7 đến 7,99",
+                "isCorrect": false
+            },
+            {
+                "answerText": "5,5 đến 6,49",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionNumber": "Câu 108:",
+        "questionText": "Báo cáo chính trị tại Đại hội XIII của Đảng nêu một trong những nội dung đột phá chiến lược 5 năm tới cần tập trung hoàn thiện đồng bộ thể chế phát triển, trước hết là thể chế nào sau đây?",
+        "answers": [
+            {
+                "answerText": "Thể chế phát triển kinh tế hàng hóa thị trường định hướng xã hội chủ nghĩa.",
+                "isCorrect": false
+            },
+            {
+                "answerText": "Thể chế phát triển nền kinh tế thị trường định hướng xã hội chủ nghĩa.",
+                "isCorrect": true
+            },
+            {
+                "answerText": "Thể chế phát triển nền kinh tế thị trường xã hội chủ nghĩa.",
+                "isCorrect": false
+            },
+            {
+                "answerText": "Thể chế phát triển kinh tế hàng hóa nhiều thành phần vận động theo cơ chế thị trường có sự quản lý của Nhà nước.",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionNumber": "Câu 109:",
+        "questionText": "Luật sửa đổi, bổ sung một số điều của Luật Giáo dục đại học có hiệu lực thi hành từ?",
+        "answers": [
+            {
+                "answerText": "Ngày 1 tháng 1 năm 2018",
+                "isCorrect": false
+            },
+            {
+                "answerText": "Ngày 1 tháng 7 năm 2018",
+                "isCorrect": false
+            },
+            {
+                "answerText": "Ngày 1 tháng 7 năm 2019",
+                "isCorrect": true
+            },
+            {
+                "answerText": "Ngày 1 tháng 1 năm 2019.",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionNumber": "Câu 110:",
+        "questionText": "“Tập trung kiểm soát đại dịch COVID-19, tiêm chủng đại trà vắc xin COVID-19 cho cộng đồng; phục hồi, phát triển kinh tế - xã hội, đổi mới mạnh mẽ mô hình tăng trưởng, cơ cấu lại nền kinh tế, xây dựng, hoàn thiện đồng bộ thể chế phát triển phù hợp với nền kinh tế thị trường đầy đủ, hiện đại, hội nhập; ...” là một trong những nội dung của?",
+        "answers": [
+            {
+                "answerText": "Định hướng phát triển đất nước giai đoạn 2021 – 2030.",
+                "isCorrect": false
+            },
+            {
+                "answerText": "Nhiệm vụ trọng tâm trong nhiệm kỳ Đại hội XIII.",
+                "isCorrect": true
+            },
+            {
+                "answerText": "Các đột phá chiến lược.",
+                "isCorrect": false
+            },
+            {
+                "answerText": "Quan điểm chỉ đạo.",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionNumber": "Câu 111:",
+        "questionText": "Sinh viên được quyền làm đơn xin học song song hai chương trình nếu",
+        "answers": [
+            {
+                "answerText": "Điểm TBTL từ 2.0 trở lên",
+                "isCorrect": true
+            },
+            {
+                "answerText": "Điềm TBHK từ 2.0 trở lên",
+                "isCorrect": false
+            },
+            {
+                "answerText": "Điểm TBTL từ 2.5 trở lên",
+                "isCorrect": false
+            },
+            {
+                "answerText": "Điểm TBHK từ 2.5 trở lên",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionNumber": "Câu 112:",
+        "questionText": "Trong “Báo cáo đánh giá kết quả thực hiện nhiệm vụ phát triển kinh tế - xã hội 5 năm 2016 - 2020 và phương hướng, nhiệm vụ phát triển kinh tế - xã hội 5 năm 2021 - 2025” đã đánh giá lĩnh vực nào dưới đây chưa trở thành động lực then chốt thúc đẩy phát triển kinh tế – xã hội?",
+        "answers": [
+            {
+                "answerText": "Giáo dục và đào tạo, khoa học và công nghệ",
+                "isCorrect": true
+            },
+            {
+                "answerText": "Văn hóa, xã hội",
+                "isCorrect": false
+            },
+            {
+                "answerText": "Chính trị - xã hội",
+                "isCorrect": false
+            },
+            {
+                "answerText": "Kinh tế",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionNumber": "Câu 113:",
+        "questionText": "Sinh viên chính quy tại Hà Nội không được đăng ký học phần có mã lớp nào dưới đây?",
+        "answers": [
+            {
+                "answerText": "DCDCDC64",
+                "isCorrect": false
+            },
+            {
+                "answerText": "TCKTKT64QN",
+                "isCorrect": true
+            },
+            {
+                "answerText": "DCCDKTD64",
+                "isCorrect": false
+            },
+            {
+                "answerText": "Không có đáp án nào phù hợp",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionNumber": "Câu 114:",
+        "questionText": "Sinh viên có học phần bắt buộc bị điểm D, học kỳ tiếp theo sinh viên học cải thiện học phần đó được C, khi đó:",
+        "answers": [
+            {
+                "answerText": "Số tín chỉ học phần sẽ bị tính vào 5% hạ bằng",
+                "isCorrect": false
+            },
+            {
+                "answerText": "Số tín chỉ học phần không bị tính vào 5% hạ bằng",
+                "isCorrect": false
+            },
+            {
+                "answerText": "Điềm TBTL sẽ được tính từ điểm C của học phần",
+                "isCorrect": false
+            },
+            {
+                "answerText": "Điểm TBTL sẽ được tính từ điểm C của học phần và số tin chỉ của học phần được tính vào 5% số tin học lần 2 để hạ bằng.",
+                "isCorrect": true
+            }
+        ]
+    },
+    {
+        "questionNumber": "Câu 115:",
+        "questionText": "Sinh viên bị kỷ luật ở mức cảnh cáo, điểm rèn luyện sẽ ở mức",
+        "answers": [
+            {
+                "answerText": "Hạ 1 mức",
+                "isCorrect": true
+            },
+            {
+                "answerText": "Hạ 2 mức",
+                "isCorrect": false
+            },
+            {
+                "answerText": "Hạ 2 mức tối đa ở mức trung bình",
+                "isCorrect": false
+            },
+            {
+                "answerText": "Không đánh giả điểm rèn luyện",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionNumber": "Câu 116:",
+        "questionText": "Điểm chữ của sinh viên là A, điểm hệ 4 để tính điểm TBHK và điểm TBTL là:",
+        "answers": [
+            {
+                "answerText": "3.5",
+                "isCorrect": false
+            },
+            {
+                "answerText": "3.0",
+                "isCorrect": false
+            },
+            {
+                "answerText": "3.7",
+                "isCorrect": true
+            },
+            {
+                "answerText": "4.0",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionNumber": "Câu 117:",
+        "questionText": "Báo cáo chính trị tại Đại hội XIII của Đảng nêu một trong những nội dung về xây dựng, chỉnh đốn Đảng trong sạch, vững mạnh, nâng cao năng lực lãnh đạo, cầm quyền của Đảng là?",
+        "answers": [
+            {
+                "answerText": "Kiên quyết, kiên trì đấu tranh phòng, chống tham nhũng, lãng phí.",
+                "isCorrect": true
+            },
+            {
+                "answerText": "Đấu tranh phòng, chống tham nhũng, lãng phí một cách kiên quyết, không có vùng cấm.",
+                "isCorrect": false
+            },
+            {
+                "answerText": "Kiên trì, kiên quyết đấu tranh phòng, chống tham nhũng, lãng phí, không có vùng cấm.",
+                "isCorrect": false
+            },
+            {
+                "answerText": "Kiên quyết đấu tranh chống tham nhũng, lãng phí, làm trong sạch bộ máy.",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionNumber": "Câu 118:",
+        "questionText": "Luật sửa đổi, bổ sung một số điều của Luật giáo dục đại học áp dụng đối với:",
+        "answers": [
+            {
+                "answerText": "Cơ sở giáo dục đại học, cao đẳng dạy nghề",
+                "isCorrect": false
+            },
+            {
+                "answerText": "Tổ chức, nhân dục đại học, dạy nghề quan đến giáo dục",
+                "isCorrect": false
+            },
+            {
+                "answerText": "Trường cao đẳng, đại học, dạy nghề",
+                "isCorrect": false
+            },
+            {
+                "answerText": "Cơ sở giáo dục đại học, tổ chức và cá nhân có liên quan đến giáo dục đại học.",
+                "isCorrect": true
+            }
+        ]
+    },
+    {
+        "questionNumber": "Câu 119:",
+        "questionText": "Thời gian đào tạo được xác định trên cơ sở:",
+        "answers": [
+            {
+                "answerText": "Số lượng tín chỉ phải tích lũy cho từng chương trình và trình độ đào tạo.",
+                "isCorrect": false
+            },
+            {
+                "answerText": "Số lượng tín chỉ cần tích lũy đối với mỗi trình độ được quy định trong Khung trình độ quốc gia Việt Nam.",
+                "isCorrect": false
+            },
+            {
+                "answerText": "Hiệu trưởng cơ sở giáo dục đại học quyết định số lượng tín chỉ phải tích lũy cho từng chương trình và trình độ đào tạo phù hợp với quy định của pháp luật.",
+                "isCorrect": false
+            },
+            {
+                "answerText": "Tất cả các đáp án trên.",
+                "isCorrect": true
+            }
+        ]
+    },
+    {
+        "questionNumber": "Câu 120:",
+        "questionText": "Để được xét, cấp học bổng loại khuyến khích học tập loại 2, sinh viên cần có đủ những điều kiện nào?",
+        "answers": [
+            {
+                "answerText": "Điểm trung bình chung mở rộng từ 2,5 trở lên, không có học phần bị điểm dưới D+ trong học kỳ, điểm rèn luyện từ 70 trở lên và không bị kỷ luật ở mức khiển trách trở lên.",
+                "isCorrect": true
+            },
+            {
+                "answerText": "Điểm trung bình chung mở rộng từ 2,5 O trở lên, điểm rèn luyện từ 70 trở lên và không bị kỷ luật ở mức cảnh cáo trở lên.",
+                "isCorrect": false
+            },
+            {
+                "answerText": "Điểm trung bình chung mở rộng từ 2,5 trở lên, không có học phần bị điểm dưới D+ trong học kỳ, điểm rèn luyện từ 70 trở lên và không bị kỷ luật ở mức cảnh cáo trở lên.",
+                "isCorrect": false
+            },
+            {
+                "answerText": "Điểm trung bình chung mở rộng từ 2,5 trở lên, điểm rèn luyện từ 80 trở lên.",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionNumber": "Câu 121:",
+        "questionText": "Để được hỗ trợ kích hoạt, cấp lại mật khẩu email, sinh viên cần liên hệ:",
+        "answers": [
+            {
+                "answerText": "Phòng Đào tạo đại học C202",
+                "isCorrect": true
+            },
+            {
+                "answerText": "Bộ phận 1 cửa C103",
+                "isCorrect": false
+            },
+            {
+                "answerText": "Phòng Công tác chính trị sinh viên A113",
+                "isCorrect": false
+            },
+            {
+                "answerText": "TT TT và thư viện phòng C205",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionNumber": "Câu 122:",
+        "questionText": "Theo quy chế 768, một học phần tự chọn tự do được điểm C+, muốn cải thiện kết quả học tập, sinh viên có thể:",
+        "answers": [
+            {
+                "answerText": "Thi lần 2",
+                "isCorrect": false
+            },
+            {
+                "answerText": "Đăng ký học học phần tự chọn khác cùng danh mục trong các học kỳ tiếp theo",
+                "isCorrect": true
+            },
+            {
+                "answerText": "Đăng ký học lại học phần tự chọn chuyên ngành khác",
+                "isCorrect": false
+            },
+            {
+                "answerText": "Đăng ký học lại học phần tự chọn tự do này ở các học kỳ tiếp theo",
+                "isCorrect": false
+            }
+        ]
+    }
+]
