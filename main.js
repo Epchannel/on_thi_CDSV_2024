@@ -1,89 +1,79 @@
-function displayQuiz(questions) {
-    const quizContainer = document.getElementById('quiz');
-    const submitButton = document.createElement('button');
-    submitButton.type = 'submit';
-    submitButton.innerText = 'Nộp bài';
-    let totalCorrect = 0;
+let currentQuestionIndex = 0;
+let questions = [];  // Danh sách câu hỏi từ JSON
+let totalCorrect = 0;
 
-    questions.forEach((question, index) => {
-        
-        const questionDiv = document.createElement('div');
-        questionDiv.classList.add('question');
-        questionDiv.innerHTML = `<h3>${question.questionNumber} ${question.questionText}</h3>`;
-        if (question.image) {
-            const img = document.createElement('img');
-            img.src = question.image;
-            questionDiv.appendChild(img);
-        }
-        // Tạo danh sách đáp án dạng radio button
-        const answerList = document.createElement('form');
-        question.answers.forEach((answer, answerIndex) => {
-            const answerId = `answer-${index}-${answerIndex}`;
-            const answerLabel = document.createElement('label');
-            answerLabel.htmlFor = answerId;
-            answerLabel.innerHTML = `
-        <input type="radio" name="question-${index}" id="${answerId}">
-        <span class="answer-text">${answer.answerText.replace(/<\/?mark>/g, '').replace(/<\/?strong>/g, '')}</span>
-      `;
-            answerList.appendChild(answerLabel);
+document.getElementById('submit-answer').addEventListener('click', checkAnswer);
+document.getElementById('next-question').addEventListener('click', loadNextQuestion);
 
-            // Lưu trữ thông tin đáp án đúng vào thuộc tính data-correct của input
-            if (answer.isCorrect) {
-                answerLabel.querySelector('input').dataset.correct = "true";
-                // Thêm class 'correct-answer' cho label chứa đáp án đúng (ẩn ban đầu)
-                answerLabel.classList.add('correct-answer');
-            }
+function displayQuestion() {
+    const question = questions[currentQuestionIndex];
+    document.getElementById('question-number').innerText = `Câu ${currentQuestionIndex + 1}`;
+    document.getElementById('question-text').innerText = question.questionText;
 
-            // Xử lý sự kiện khi người dùng click vào input
-            answerLabel.querySelector('input').addEventListener('click', () => {
-                // Hiển thị kết quả cho đáp án được chọn
-                if (answer.isCorrect) {
-                    answerLabel.querySelector('.answer-text').style.color = 'green';
-                } else {
-                    answerLabel.querySelector('.answer-text').style.color = 'red';
-                }
+    const answerList = document.getElementById('answer-list');
+    answerList.innerHTML = ''; // Xóa các đáp án trước
 
-                // Hiển thị đáp án đúng
-                answerList.querySelectorAll('.correct-answer .answer-text').forEach(correctAnswer => {
-                    correctAnswer.style.fontWeight = 'bold';
-                    correctAnswer.style.color = 'green';
-                });
-            });
-        });
-
-        questionDiv.appendChild(answerList);
-        quizContainer.appendChild(questionDiv);
-
+    question.answers.forEach((answer, index) => {
+        const answerId = `answer-${index}`;
+        const answerLabel = document.createElement('label');
+        answerLabel.htmlFor = answerId;
+        answerLabel.innerHTML = `
+            <input type="radio" name="answer" id="${answerId}" value="${answer.isCorrect}">
+            <span>${answer.answerText}</span>
+        `;
+        answerList.appendChild(answerLabel);
     });
 
-
-
+    document.getElementById('correct-answer').style.display = 'none';
+    document.getElementById('submit-answer-container').style.display = 'block';
+    document.getElementById('next-question-container').style.display = 'none';
 }
 
-// Lấy dữ liệu từ file JSON và hiển thị
+function checkAnswer() {
+    const selectedAnswer = document.querySelector('input[name="answer"]:checked');
+    
+    if (!selectedAnswer) {
+        alert('Vui lòng chọn một đáp án!');
+        return;
+    }
+
+    const isCorrect = selectedAnswer.value === 'true';
+    const correctAnswerText = questions[currentQuestionIndex].answers.find(answer => answer.isCorrect).answerText;
+
+    const correctAnswerElement = document.getElementById('correct-answer');
+    if (isCorrect) {
+        correctAnswerElement.innerHTML = '<span class="color_1 fs18"><i class="fa fa-check"></i> Bạn đã chọn đúng!</span>';
+        totalCorrect++;
+    } else {
+        correctAnswerElement.innerHTML = '<span class="color_3 fs18"><i class="fa fa-xmark"></i> Bạn đã chọn sai</span>&nbsp;&nbsp;|&nbsp;&nbsp;<span class="fs18 color_1">Đáp án đúng là: <span class="text-uppercase">' + correctAnswerText + '</span></span>';
+    }
+
+    correctAnswerElement.style.display = 'block';
+    document.getElementById('submit-answer-container').style.display = 'none';
+    document.getElementById('next-question-container').style.display = 'block';
+}
+
+function loadNextQuestion() {
+    currentQuestionIndex++;
+
+    if (currentQuestionIndex < questions.length) {
+        displayQuestion();
+        document.getElementById('correct-answer').style.display = 'none';
+        document.getElementById('next-question-container').style.display = 'none';
+        document.getElementById('submit-answer-container').style.display = 'block';
+    } else {
+        document.getElementById('quiz-container').innerHTML = `<p>Bạn đã trả lời đúng ${totalCorrect} trong tổng số ${questions.length} câu hỏi.</p>`;
+    }
+}
+
+// Tải câu hỏi từ tệp JSON và hiển thị câu hỏi đầu tiên
 fetch('questions/question_cdsv.json')
     .then(response => response.json())
-    .then(questions => {
-        displayQuiz(questions);
-        
+    .then(data => {
+        questions = data;
+        displayQuestion();
     });
 
-window.addEventListener('scroll', function () {
-    var quiz = document.getElementById('quiz');
-    var scrollHeight = Math.max(
-        document.body.scrollHeight, document.documentElement.scrollHeight,
-        document.body.offsetHeight, document.documentElement.offsetHeight,
-        document.body.clientHeight, document.documentElement.clientHeight
-    );
-
-    // Kiểm tra xem người dùng đã cuộn đến cuối trang chưa
-    var scrolledToBottom = window.innerHeight + window.scrollY >= document.body.offsetHeight;
-
-    // Nếu người dùng chưa cuộn đến cuối trang, cập nhật chiều cao của #quiz
-    if (!scrolledToBottom) {
-        quiz.style.height = scrollHeight + 'px';
-    }
-});
 
 // Lấy phần tử nút "On Top"
 var onTopBtn = document.getElementById("onTopBtn");

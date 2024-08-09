@@ -101,133 +101,118 @@ footer a:hover {
 }
 
 /* Quiz Container */
-#quiz {
-    display: flex;
-    flex: 1;
-    flex-direction: column;
-    gap: 20px;
-    padding: 20px;
-    background-color: #ffffff;
+#quiz-container {
+    width: 600px; /* Cố định chiều ngang */
+    max-width: 100%;
+    margin: auto;
+    padding: 0 12px;
+    background-color: white;
     border-radius: 10px;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-    max-width: 700px;
-    width: 100%;
-    margin: 70px auto 50px auto; /* Thêm khoảng cách cho header */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    min-height: auto;
+    overflow-x: hidden;
 }
 
-.question {
-    background-color: #fafafa;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
-    transition: box-shadow 0.3s ease, transform 0.3s ease;
-}
-
-.question:hover {
-    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.15);
-    transform: translateY(-5px);
-}
-
-.question h3 {
-    font-size: 1.5rem;
-    margin-bottom: 10px;
-    color: #007bff;
-}
-
-form label {
-    display: flex;
-    align-items: center;
-    padding: 10px;
-    border-radius: 5px;
-    background-color: #ffffff;
-    margin-bottom: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-}
-
-form label:hover {
-    background-color: #f0f0f0;
-}
-
-.answer-text {
-    font-size: 1rem;
-    color: #555;
-    margin-left: 10px;
-}
-
-input[type=radio] {
-    margin-right: 10px;
-    transform: scale(1.5);
-}
-
-/* Progress Bar */
-.progress-bar {
-    height: 10px;
-    background-color: #e0e0e0;
-    border-radius: 5px;
+#question-box {
     margin-bottom: 20px;
-    overflow: hidden;
 }
 
-.progress-bar-inner {
-    height: 100%;
-    width: 0%;
-    background-color: #007bff;
-    transition: width 0.3s ease;
-}
-
-button {
-    font-family: 'Roboto', sans-serif;
-    background-color: #007bff;
-    color: white;
-    font-size: 1rem;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-    width: 100%;
-    max-width: 200px;
-    margin: 20px auto 0 auto;
-}
-
-button:hover {
-    background-color: #0056b3;
-}
-
-/* Timer */
-.timer {
-    position: fixed;
-    top: 20px;
-    right: 20px;
-    font-size: 1.25rem;
+#correct-answer {
+    margin-top: 20px;
     font-weight: bold;
-    color: #333;
 }
 
-/* Responsive Design */
-@media (max-width: 768px) {
-    header h1 {
-        font-size: 1.2rem;
-    }
+/* button {
+    padding: 10px 20px;
+    margin-top: 20px;
+    cursor: pointer;
+} */
 
-    header nav {
-        flex-direction: column;
-        align-items: flex-end;
-    }
-
-    footer {
-        font-size: 0.8rem;
-    }
-
-    .question h3 {
-        font-size: 1.25rem;
-    }
-
-    form label {
-        font-size: 0.9rem;
-    }
+#answer-list label {
+    display: block; /* Mỗi đáp án sẽ nằm trên một dòng riêng */
+    margin-bottom: 10px; /* Thêm khoảng cách giữa các đáp án */
 }
+
+#submit-answer-container {
+    text-align: center; /* Căn giữa nội dung bên trong, tức là nút */
+    margin-top: 20px; /* Khoảng cách phía trên nút */
+}
+
+#submit-answer {
+    /* Color & Background */
+    background-attachment: scroll;
+    background-color: rgb(226, 144, 0);
+    background-image: none;
+    background-position: 0% 0%;
+    background-repeat: repeat;
+    color: rgb(255, 255, 255);
+
+    /* Box */
+    height: 42px;
+    width: 240px;
+    border: 1px solid rgb(226, 144, 0);
+    margin: 20px auto; /* Đảm bảo nút được căn giữa */
+    padding: 10px 20px;
+    border-radius: 8px; /* Bo góc */
+    display: block; /* Đặt nút thành khối để căn giữa */
+    
+    /* Positioning */
+    position: static;
+    float: none;
+    clear: none;
+    z-index: auto;
+    cursor: pointer;
+    /* Transition for smooth color change */
+    transition: background-color 0.3s ease;
+}
+
+#submit-answer:hover {
+    background-color: rgb(34, 139, 34); /* Màu xanh lá */
+    border-color: rgb(34, 139, 34);
+}
+
+#submit-answer i {
+    margin-left: 8px; /* Thêm khoảng cách giữa chữ và biểu tượng */
+}
+
+#next-question-container {
+    text-align: center; /* Căn giữa nội dung bên trong, tức là nút */
+    margin-top: 20px; /* Khoảng cách phía trên nút */
+}
+#next-question {
+    /* Color & Background */
+    background-attachment: scroll;
+    background-color: rgb(226, 144, 0);
+    background-image: none;
+    background-position: 0% 0%;
+    background-repeat: repeat;
+    color: rgb(255, 255, 255);
+
+    /* Box */
+    height: 42px;
+    width: 240px;
+    border: 1px solid rgb(226, 144, 0);
+    margin: 20px auto; /* Đảm bảo nút được căn giữa */
+    padding: 10px 20px;
+    border-radius: 8px; /* Bo góc */
+    display: block; /* Đặt nút thành khối để căn giữa */
+
+    /* Positioning */
+    position: static;
+    float: none;
+    clear: none;
+    z-index: auto;
+
+    /* Transition for smooth color change */
+    transition: background-color 0.3s ease;
+}
+
+#next-question:hover {
+    background-color: rgb(34, 139, 34); /* Màu xanh lá khi hover */
+    border-color: rgb(34, 139, 34);
+}
+
+
 
 /* Nút On Top */
 #onTopBtn {
@@ -251,8 +236,81 @@ button:hover {
     transition: background-color 0.3s ease;
 }
 
+input[type="radio"] {
+    /* Color & Background */
+    background-color: #2888E1;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    color: #000000;
+
+    /* Box */
+    height: 18px;
+    width: 18px;
+    border: 1px solid #2888E1;
+    margin: 3px; /* Điều chỉnh khoảng cách để tránh bị sát lề */
+
+    /* Positioning */
+    display: inline-block; /* Đổi từ float sang inline-block để không bị ảnh hưởng bởi margin */
+    vertical-align: middle; /* Đảm bảo căn giữa với text hoặc các thành phần khác */
+
+    /* Miscellaneous */
+    cursor: pointer; /* Đổi cursor để phù hợp với ô tick */
+
+    /* Effects */
+    transition: all 0.3s ease; 
+    outline: none; /* Bỏ outline màu đỏ để tránh hiện viền không mong muốn */
+    box-sizing: border-box;
+    /* box-shadow: rgba(13, 110, 253, 0.25) 0px 0px 0px 4px; */
+    border-radius: 50%; /* Bo tròn các góc */
+}
+
+label {
+    display: flex;
+    align-items: center; /* Đảm bảo căn giữa nội dung của label */
+    /* margin-left: 10px; Tạo khoảng cách giữa label và ô tick để tránh sát lề */
+}
+
+
+
 #onTopBtn:hover {
     background-color: #0056b3;
 }
 
 
+#correct-answer {
+    display: flex; /* Sử dụng flex để căn chỉnh các phần tử bên trong */
+    justify-content: center; /* Căn giữa nội dung */
+    align-items: center; /* Căn giữa theo chiều dọc */
+    padding: 10px 20px;
+    margin-top: 20px;
+    font-weight: 600; /* Độ đậm của chữ */
+    font-size: 18px; /* Kích thước chữ */
+    border: 2px dashed #B03611; /* Thay đổi border thành 2px nét đứt và màu #B03611 */
+    border-radius: 8px; /* Bo góc */
+    background-color: #f9f9f9; /* Màu nền nhẹ */
+}
+
+
+.color_3 {
+    color: #d9534f; /* Màu đỏ cho thông báo sai */
+}
+
+.color_1 {
+    color: #5cb85c; /* Màu xanh cho đáp án đúng */
+}
+
+.text-uppercase {
+    text-transform: uppercase; /* Chuyển chữ cái thành viết hoa */
+}
+
+.fa-xmark {
+    margin-right: 5px; /* Khoảng cách giữa biểu tượng và text */
+}
+
+.sai {
+    color: #d9534f;
+}
+
+.fs18 {
+    font-size: 18px;
+}
