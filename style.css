@@ -1,10 +1,13 @@
 body {
+    font-family: 'Nunito', sans-serif;
     display: flex;
     flex-direction: column;
     min-height: 100vh; /* Chiều cao tối thiểu là 100% chiều cao khung nhìn */
     margin: 0;
 }
-
+h1, h2, h3, h4, h5, h6, p, a, button, input, textarea, label, span, div {
+    font-family: 'Nunito', sans-serif;
+}
 /* Header */
 header {
     width: 100%;
@@ -100,116 +103,241 @@ footer a:hover {
     text-decoration: underline;
 }
 
+#main-container {
+    display: flex;
+    justify-content: center; /* Căn giữa hai cột */
+    align-items: flex-start;
+    padding: 20px;
+    margin: 60px auto;
+    max-width: 1200px; /* Điều chỉnh tùy theo yêu cầu giao diện */
+    gap: 20px; /* Khoảng cách giữa hai cột */
+}
+
+
 /* Quiz Container */
 #quiz-container {
-    width: 600px; /* Cố định chiều ngang */
-    max-width: 100%;
-    margin: auto;
-    padding: 0 12px;
+    display: flex;
+    gap: 20px; /* Khoảng cách giữa hai cột */
+}
+
+#left-column, #right-column {
+    margin-top: 20px; /* Điều chỉnh giá trị margin này để phù hợp với yêu cầu của bạn */
+}
+
+#left-column {
+    width: 630px; /* Cố định chiều ngang là 830px */
     background-color: white;
+    padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    min-height: auto;
-    overflow-x: hidden;
 }
+
+#right-column {
+    
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#right-column .stat-item {
+    padding: 20px 10px; /* Điều chỉnh padding cho phù hợp */
+    border-radius: 8px; /* Bo tròn các góc */
+    margin-bottom: 10px; /* Khoảng cách giữa các box */
+    color: white; /* Màu chữ là trắng */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Căn giữa theo chiều dọc */
+    align-items: center; /* Căn giữa theo chiều ngang */
+    background: linear-gradient(to bottom, #4CAF50 50%, white 50%); /* Màu nền chuyển sắc */
+    text-align: center; /* Căn giữa văn bản theo chiều ngang */
+    height: 100px; /* Đặt chiều cao cố định để dễ căn giữa */
+    /* padding-top: 15px; Thêm khoảng cách phía trên */
+}
+
+#right-column .stat-item p {
+    display: flex;
+    align-items: center; /* Căn giữa các phần tử theo chiều dọc */
+    justify-content: center; /* Căn giữa các phần tử theo chiều ngang */
+    margin: 0;
+    padding: 10px 0;
+    font-size: 1.1rem; /* Đảm bảo kích thước chữ phù hợp */
+}
+
+#right-column .stat-item p span {
+    display: inline-block; /* Đảm bảo mỗi phần tử là khối inline để dễ căn chỉnh */
+    font-size: inherit; /* Sử dụng kích thước chữ đồng nhất */
+    vertical-align: middle; /* Căn chỉnh các span khác theo chiều dọc */
+    line-height: 1.5; /* Đảm bảo chiều cao dòng đồng nhất */
+}
+
+#right-column .stat-item p span.separator {
+    display: inline-block;
+    margin: 5 4px;
+    font-size: 1.1rem;
+    vertical-align: middle;
+    line-height: 3; /* Điều chỉnh line-height để phù hợp với các ký tự khác */
+}
+
+#right-column .stat-item span {
+    font-size: 2rem; /* Điều chỉnh kích thước chữ cho phù hợp */
+    margin-top: 50px; /* Khoảng cách trên dòng chữ trong thẻ span */
+    line-height: 0.5; /* Khoảng cách dòng cho thẻ span */
+}
+
+/* Đảm bảo box cuối cùng không có khoảng cách dưới */
+#right-column .stat-item:last-child {
+    margin-bottom: 0;
+}
+
+#right-column .stat-item:nth-child(2) {
+    background: linear-gradient(to bottom, #FF9800 50%, white 50%);
+}
+
+#right-column .stat-item:nth-child(3) {
+    background: linear-gradient(to bottom, #2196F3 50%, white 50%);
+}
+
+#right-column .stat-item p {
+    margin: 0;
+    padding: 10px 0;
+    font-size: 1.1rem; /* Kích thước chữ */
+}
+
+#right-column .stat-item span {
+    display: block;
+    font-size: 2rem; /* Kích thước chữ số */
+    color: #8AC53E; /* Màu chữ số (màu của nửa dưới) */
+}
+
+#right-column .stat-item:nth-child(2) span {
+    color: #FF9800;
+}
+
+#right-column .stat-item:nth-child(3) span {
+    color: #2196F3;
+}
+
+
+.stat-group {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center; /* Căn giữa các số liệu trong nhóm */
+    font-size: 1.1rem;
+    line-height: 1.5;
+    margin-bottom: 15px; /* Tạo khoảng cách giữa stat-group và viền dưới */
+}
+/* CSS cho dấu phân cách (separator) */
+.stat-group .separator {
+    display: inline-block;
+    margin: 0 4px;
+    font-size: inherit;
+    vertical-align: middle;
+    line-height: inherit;
+}
+
+/* Các phần tử bên trong các cột sẽ giữ nguyên các CSS hiện tại */
+#question-box, #submit-answer-container, #correct-answer, #next-question-container {
+    width: 100%;
+}
+
+#question-number {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+ 
+#question-and-stats {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    gap: 20px;
+}
+
+/* Cột câu hỏi */
+#question-box-wrapper {
+    flex: 2;
+}
+
+/* Cột số liệu */
+#stats-box {
+    background-color: transparent; /* Làm nền trong suốt */
+    border: none; /* Bỏ border */
+    padding: 0; /* Đặt lại padding nếu cần */
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Đảm bảo khoảng cách giữa các stat-item */
+}
+.stat-item {
+    display: flex;
+    flex-direction: column; /* Chia thành hai phần trên và dưới */
+    align-items: center; /* Căn giữa nội dung theo chiều ngang */
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 10px; /* Khoảng cách giữa các stat-item */
+}
+.stat-item p {
+    margin-bottom: 8px; /* Khoảng cách giữa text và stat-group */
+    font-size: 1.2rem; /* Kích thước chữ */
+}
+
+
+
+#elapsed-time {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.5rem;
+    color: #B03611;
+}
+
 
 #question-box {
+    display: block;
+    width: 100%;
     margin-bottom: 20px;
-}
-
+}   
 #correct-answer {
     margin-top: 20px;
     font-weight: bold;
 }
 
-/* button {
-    padding: 10px 20px;
-    margin-top: 20px;
-    cursor: pointer;
-} */
+#answer-list {
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+}
 
 #answer-list label {
     display: block; /* Mỗi đáp án sẽ nằm trên một dòng riêng */
     margin-bottom: 10px; /* Thêm khoảng cách giữa các đáp án */
 }
 
-#submit-answer-container {
-    text-align: center; /* Căn giữa nội dung bên trong, tức là nút */
-    margin-top: 20px; /* Khoảng cách phía trên nút */
-}
 
-#submit-answer {
-    /* Color & Background */
-    background-attachment: scroll;
-    background-color: rgb(226, 144, 0);
-    background-image: none;
-    background-position: 0% 0%;
-    background-repeat: repeat;
-    color: rgb(255, 255, 255);
-
-    /* Box */
-    height: 42px;
-    width: 240px;
-    border: 1px solid rgb(226, 144, 0);
-    margin: 20px auto; /* Đảm bảo nút được căn giữa */
-    padding: 10px 20px;
-    border-radius: 8px; /* Bo góc */
-    display: block; /* Đặt nút thành khối để căn giữa */
-    
-    /* Positioning */
-    position: static;
-    float: none;
-    clear: none;
-    z-index: auto;
-    cursor: pointer;
-    /* Transition for smooth color change */
-    transition: background-color 0.3s ease;
-}
-
-#submit-answer:hover {
-    background-color: rgb(34, 139, 34); /* Màu xanh lá */
-    border-color: rgb(34, 139, 34);
-}
-
-#submit-answer i {
-    margin-left: 8px; /* Thêm khoảng cách giữa chữ và biểu tượng */
-}
-
+#submit-answer-container,
 #next-question-container {
-    text-align: center; /* Căn giữa nội dung bên trong, tức là nút */
-    margin-top: 20px; /* Khoảng cách phía trên nút */
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 20px;
 }
-#next-question {
-    /* Color & Background */
-    background-attachment: scroll;
-    background-color: rgb(226, 144, 0);
-    background-image: none;
-    background-position: 0% 0%;
-    background-repeat: repeat;
-    color: rgb(255, 255, 255);
 
-    /* Box */
-    height: 42px;
-    width: 240px;
-    border: 1px solid rgb(226, 144, 0);
-    margin: 20px auto; /* Đảm bảo nút được căn giữa */
+button {
     padding: 10px 20px;
-    border-radius: 8px; /* Bo góc */
-    display: block; /* Đặt nút thành khối để căn giữa */
-
-    /* Positioning */
-    position: static;
-    float: none;
-    clear: none;
-    z-index: auto;
-
-    /* Transition for smooth color change */
+    cursor: pointer;
+    border-radius: 8px;
+    border: none;
+    background-color: rgb(226, 144, 0);
+    color: white;
+    font-weight: bold;
     transition: background-color 0.3s ease;
 }
 
-#next-question:hover {
-    background-color: rgb(34, 139, 34); /* Màu xanh lá khi hover */
-    border-color: rgb(34, 139, 34);
+button:hover {
+    background-color: rgb(34, 139, 34);
 }
 
 
@@ -278,17 +406,21 @@ label {
 
 
 #correct-answer {
-    display: flex; /* Sử dụng flex để căn chỉnh các phần tử bên trong */
-    justify-content: center; /* Căn giữa nội dung */
-    align-items: center; /* Căn giữa theo chiều dọc */
-    padding: 10px 20px;
+    width: 100%; /* Đảm bảo nó chiếm toàn bộ chiều rộng của cột trái */
+    box-sizing: border-box; /* Đảm bảo padding và border được tính trong chiều rộng */
     margin-top: 20px;
-    font-weight: 600; /* Độ đậm của chữ */
-    font-size: 18px; /* Kích thước chữ */
-    border: 2px dashed #B03611; /* Thay đổi border thành 2px nét đứt và màu #B03611 */
-    border-radius: 8px; /* Bo góc */
-    background-color: #f9f9f9; /* Màu nền nhẹ */
+    font-weight: bold;
+    padding: 10px 20px;
+    border: 2px dashed #B03611;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+
+
 
 
 .color_3 {

@@ -1,13 +1,16 @@
 let currentQuestionIndex = 0;
 let questions = [];  // Danh sách câu hỏi từ JSON
 let totalCorrect = 0;
+let attemptedCount = 0;
+let totalQuestions = 0;
+let startTime = Date.now();
 
 document.getElementById('submit-answer').addEventListener('click', checkAnswer);
 document.getElementById('next-question').addEventListener('click', loadNextQuestion);
 
 function displayQuestion() {
     const question = questions[currentQuestionIndex];
-    document.getElementById('question-number').innerText = `Câu ${currentQuestionIndex + 1}`;
+    document.getElementById('question-number').innerText = `Câu ${currentQuestionIndex + 1}`; // Cập nhật số thứ tự câu hỏi
     document.getElementById('question-text').innerText = question.questionText;
 
     const answerList = document.getElementById('answer-list');
@@ -37,16 +40,20 @@ function checkAnswer() {
         return;
     }
 
+    attemptedCount++; // Tăng số câu đã làm
+
     const isCorrect = selectedAnswer.value === 'true';
     const correctAnswerText = questions[currentQuestionIndex].answers.find(answer => answer.isCorrect).answerText;
 
     const correctAnswerElement = document.getElementById('correct-answer');
     if (isCorrect) {
         correctAnswerElement.innerHTML = '<span class="color_1 fs18"><i class="fa fa-check"></i> Bạn đã chọn đúng!</span>';
-        totalCorrect++;
+        totalCorrect++; // Tăng số câu làm đúng
     } else {
         correctAnswerElement.innerHTML = '<span class="color_3 fs18"><i class="fa fa-xmark"></i> Bạn đã chọn sai</span>&nbsp;&nbsp;|&nbsp;&nbsp;<span class="fs18 color_1">Đáp án đúng là: <span class="text-uppercase">' + correctAnswerText + '</span></span>';
     }
+
+    updateStats(); // Cập nhật các số liệu thống kê
 
     correctAnswerElement.style.display = 'block';
     document.getElementById('submit-answer-container').style.display = 'none';
@@ -66,33 +73,26 @@ function loadNextQuestion() {
     }
 }
 
+function updateStats() {
+    document.getElementById('correct-count').innerText = totalCorrect;
+    document.getElementById('attempted-count').innerText = attemptedCount;
+    document.getElementById('total-questions').innerText = totalQuestions;
+
+    const elapsedTime = Math.floor((Date.now() - startTime) / 1000);
+    const minutes = Math.floor(elapsedTime / 60);
+    const seconds = elapsedTime % 60;
+    document.getElementById('elapsed-time').innerText = `${minutes.toString().padStart(2, '0')}:${seconds.toString().padStart(2, '0')}`;
+}
+
 // Tải câu hỏi từ tệp JSON và hiển thị câu hỏi đầu tiên
 fetch('questions/question_cdsv.json')
     .then(response => response.json())
     .then(data => {
         questions = data;
+        totalQuestions = questions.length;  // Cập nhật tổng số câu hỏi
+        document.getElementById('total-questions').innerText = totalQuestions;
         displayQuestion();
     });
 
-
-// Lấy phần tử nút "On Top"
-var onTopBtn = document.getElementById("onTopBtn");
-
-// Hiển thị nút khi người dùng cuộn xuống 100px từ đỉnh trang
-window.onscroll = function() {scrollFunction()};
-
-function scrollFunction() {
-    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
-        onTopBtn.style.display = "block";
-    } else {
-        onTopBtn.style.display = "none";
-    }
-}
-
-// Khi người dùng nhấp vào nút, cuộn lên đầu trang
-onTopBtn.onclick = function() {
-    document.body.scrollTop = 0;
-    document.documentElement.scrollTop = 0;
-}
-
-
+// Cập nhật thời gian mỗi giây
+setInterval(updateStats, 1000);

@@ -4,10 +4,17 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>CDSV Question</title>
+  <meta property="og:title" content="Ôn thi Công dân Sinh viên 2024">
+  <meta property="og:description" content="Trang ôn trắc nghiệm Công dân sinh viên tại HUMG">
+  <meta property="og:image" content="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWUZMB4Z8d89dnsd3z-belTHuyxl2OoBnrgA&s">
+  <meta property="og:url" content="https://epchannel.github.io/on_thi_CDSV_2024">
+  <meta property="og:type" content="website">
+  <title>Ôn thi Công dân Sinh viên 2024</title>
   <link rel="stylesheet" href="style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="icon" href="assets/Logo_EQ_small.png" type="image/x-icon">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
 </head>
@@ -30,26 +37,60 @@
   </header>
 
   <!-- Main Content -->
-<div id="quiz-container">
-    <div id="question-box-wrapper">
-        <div id="question-box">
-            <h3 id="question-number"></h3>
-            <p id="question-text"></p>
-            <form id="answer-list"></form>
+  <div id="main-container">
+    <div id="quiz-container">
+        <div id="left-column">
+            <div id="question-box-wrapper">
+                <div id="question-box">
+                    <h3 id="question-number"></h3>
+                    <p id="question-text"></p>
+                    <form id="answer-list"></form>
+                </div>
+            </div>
+            <div id="submit-answer-container">
+                <button id="submit-answer">Trả lời <i class="fa fa-angle-double-right"></i></button>
+            </div>
+            <div id="correct-answer" class="anwsers-correct sai fw600" style="display: none;"></div>
+            <div id="next-question-container" style="display: none;">
+                <button id="next-question">Câu hỏi tiếp theo <i class="fa fa-angle-double-right"></i></button>
+            </div>
         </div>
+        <div id="right-column">
+          <div id="stats-box">
+              <div class="stat-item">
+                  <p>Số câu làm đúng:</p>
+                  <div class="stat-group">
+                      <span id="correct-count">0</span>
+                      <span class="separator">/</span>
+                      <span id="total-questions">122</span>
+                  </div>
+              </div>
+              <div class="stat-item">
+                  <p>Số câu đã làm:</p>
+                  <div class="stat-group">
+                      <span id="attempted-count">0</span>
+                      <span class="separator">/</span>
+                      <span id="total-questions">122</span>
+                  </div>
+              </div>
+              <div class="stat-item">
+                  <p>Thời gian đã làm:</p>
+                  <div class="stat-group">
+                      <span id="elapsed-time">00:00</span>
+                  </div>
+              </div>
+          </div>
+      </div>
+      
+      
+      
+      
+      
     </div>
-    <div id="submit-answer-container"> <!-- Thêm div để bao quanh nút -->
-        <button id="submit-answer">
-            Trả lời <i class="fa fa-angle-double-right"></i>
-        </button>
-    </div>
-    <p id="correct-answer" style="display: none;"></p>
-    <!-- <button id="next-question" style="display: none;">Câu hỏi tiếp theo</button> -->
-    <div id="next-question-container"> <!-- Thêm div để bao quanh nút -->
-      <button id="next-question">
-        Câu hỏi tiếp theo <i class="fa fa-angle-double-right"></i>
-      </button>
 </div>
+
+
+
 
   
 
@@ -57,7 +98,7 @@
 
   <!-- Footer -->
   <footer>
-    <p>&copy; 2024 EpChannel Quiz.</p>
+    <p>&copy; 2024 EpQuiz.</p>
     <p>
       <a href="#">Chính sách bảo mật</a> | 
       <a href="#">Điều khoản dịch vụ</a>

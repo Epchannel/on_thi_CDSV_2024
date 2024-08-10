@@ -1,39 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Test Next Button</title>
-    <style>
-        #next-question-container {
-            text-align: center;
-            margin-top: 20px;
-        }
-        #next-question {
-            background-color: rgb(226, 144, 0);
-            color: rgb(255, 255, 255);
-            height: 42px;
-            width: 240px;
-            border: 1px solid rgb(226, 144, 0);
-            margin: 20px auto;
-            padding: 10px 20px;
-            border-radius: 8px;
-            display: block;
-            transition: background-color 0.3s ease;
-        }
-        #next-question:hover {
-            background-color: rgb(34, 139, 34);
-            border-color: rgb(34, 139, 34);
-        }
-    </style>
-</head>
-<body>
-    <div id="next-question-container" style="display: none;">
-        <button id="next-question">Câu hỏi tiếp theo</button>
-    </div>
-
-    <script>
-        document.getElementById('next-question-container').style.display = 'block';
-    </script>
-</body>
-</html>
+<div class="counter-box">
+    <div class="counter-text">Số câu làm đúng:</div>
+    <div class="counter-value" id="counter">0</div>
+</div>

@@ -1,7 +1,7 @@
 [
     {
         "questionNumber": "Câu 1.",
-        "questionText": "Đợt đăng khí dự kiến trước khi bắt đầu học kì chính.",
+        "questionText": "Đợt đăng ký dự kiến trước khi bắt đầu học kì chính.",
         "answers": [
             {
                 "answerText": "2 tuần",
@@ -23,7 +23,7 @@
     },
     {
         "questionNumber": "Câu 2.",
-        "questionText": "Thi kết thử 1 học phần sinh viên có điểm thành phần tương ứng là A-5, B-8, C-9 điểm học phần hệ 4 của sinh viên là:",
+        "questionText": "Thi kết thúc 1 học phần sinh viên có điểm thành phần tương ứng là A-5, B-8, C-9 điểm học phần hệ 4 của sinh viên là:",
         "answers": [
             {
                 "answerText": "2",
