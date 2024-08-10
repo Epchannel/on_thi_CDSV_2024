@@ -913,11 +913,11 @@
         "answers": [
             {
                 "answerText": "Sau 2 tuần từ lúc bắt đầu học kỳ",
-                "isCorrect": true
+                "isCorrect": false
             },
             {
                 "answerText": "Sau 1 tuần từ lúc bắt đầu học kỳ",
-                "isCorrect": false
+                "isCorrect": true
             },
             {
                 "answerText": "Trước 2 tuần từ lúc bắt đầu học kỳ",
@@ -2215,11 +2215,11 @@
             },
             {
                 "answerText": "2",
-                "isCorrect": true
+                "isCorrect": false
             },
             {
                 "answerText": "1",
-                "isCorrect": false
+                "isCorrect": true
             },
             {
                 "answerText": "không có điểm c2 (cấm thi)",
