@@ -48,7 +48,7 @@
         "questionText": "Các học phần giáo dục thế chất và giáo dục quốc phòng là:",
         "answers": [
             {
-                "answerText": "Học phân cấp chứng chỉ.",
+                "answerText": "Học phần cấp chứng chỉ.",
                 "isCorrect": true
             },
             {
@@ -56,7 +56,7 @@
                 "isCorrect": false
             },
             {
-                "answerText": "Học phần ko bắt buộc",
+                "answerText": "Học phần không bắt buộc",
                 "isCorrect": false
             },
             {
@@ -126,7 +126,7 @@
                 "isCorrect": false
             },
             {
-                "answerText": "Ko quy định",
+                "answerText": "không quy định",
                 "isCorrect": false
             }
         ]
@@ -148,7 +148,7 @@
                 "isCorrect": false
             },
             {
-                "answerText": "Ko xếp hạng",
+                "answerText": "Không xếp hạng",
                 "isCorrect": false
             }
         ]
@@ -162,15 +162,15 @@
                 "isCorrect": false
             },
             {
-                "answerText": "Nợ ko quá 2 học phần trong chương trình đào tạo",
+                "answerText": "Nợ không quá 2 học phần trong chương trình đào tạo",
                 "isCorrect": true
             },
             {
-                "answerText": "Có điểm TBTL của học kì ko dưới 2.0",
+                "answerText": "Có điểm TBTL của học kì không dưới 2.0",
                 "isCorrect": false
             },
             {
-                "answerText": "Có điểm TBTL cuối ko dưới 2.0",
+                "answerText": "Có điểm TBTL cuối không dưới 2.0",
                 "isCorrect": false
             }
         ]
@@ -418,7 +418,7 @@
                 "isCorrect": false
             },
             {
-                "answerText": "Ko đc miễn giảm",
+                "answerText": "không đc miễn giảm",
                 "isCorrect": false
             }
         ]
@@ -473,18 +473,18 @@
         "answers": [
             {
                 "answerText": "Bậc 2 khung năng lực ngoại ngữ VN",
-                "isCorrect": true
+                "isCorrect": false
             },
             {
                 "answerText": "Bậc 3 khung năng lực ngoại ngữ VN",
-                "isCorrect": false
+                "isCorrect": true
             },
             {
                 "answerText": "Bậc 4 khung năng lực ngoại ngữ VN",
                 "isCorrect": false
             },
             {
-                "answerText": "Ko có đáp án",
+                "answerText": "không có đáp án",
                 "isCorrect": false
             }
         ]
@@ -506,7 +506,7 @@
                 "isCorrect": true
             },
             {
-                "answerText": "Ko có",
+                "answerText": "không có",
                 "isCorrect": false
             }
         ]
@@ -550,7 +550,7 @@
                 "isCorrect": false
             },
             {
-                "answerText": "Ko xếp hạng",
+                "answerText": "không xếp hạng",
                 "isCorrect": false
             }
         ]
@@ -590,7 +590,7 @@
                 "isCorrect": false
             },
             {
-                "answerText": "Ko hoàn thành học phần thực hành hoặc thí nhiệm",
+                "answerText": "không hoàn thành học phần thực hành hoặc thí nhiệm",
                 "isCorrect": false
             },
             {
@@ -601,10 +601,10 @@
     },
      {
         "questionNumber": "Câu 29:",
-        "questionText": "Các đợt thi, nội dung thì, và kế hoạch tổ chức trong năm học đánh giá chuẩn đầu ra ngoại ngữ, tin học của Nhà trường được công bố công khai và sinh viên có thể xem tại website nào:",
+        "questionText": "Các đợt thi, nội dung thi và kế hoạch tổ chức trong năm học đánh giá chuẩn đầu ra ngoại ngữ, tin học của Nhà trường được công bố công khai và sinh viên có thể xem tại website nào:",
         "answers": [
             {
-                "answerText": "lie humg.edu.vn",
+                "answerText": "lie.humg.edu.vn",
                 "isCorrect": false
             },
             {
@@ -616,7 +616,7 @@
                 "isCorrect": false
             },
             {
-                "answerText": "cfi humg.edu.vn",
+                "answerText": "cfi.humg.edu.vn",
                 "isCorrect": true
             }
         ]
@@ -645,23 +645,23 @@
     },
      {
         "questionNumber": "Câu 31:",
-        "questionText": "Khung năng lực ngoại ngữ bậc 2 của Việt Nam tương ứng với điểm",
+        "questionText": "Khung năng lực ngoại ngữ bậc 3 của Việt Nam tương ứng với điểm",
         "answers": [
             {
-                "answerText": "PET (70-89)",
+                "answerText": "KET (70-90)",
+                "isCorrect": false
+            },
+            {
+                "answerText": "KET (90-100)",
+                "isCorrect": false
+            },
+            {
+                "answerText": "PET (45-64)",
+                "isCorrect": false
+            },
+            {
+                "answerText": "IELST (>4.5)",
                 "isCorrect": true
-            },
-            {
-                "answerText": "TOEFL ITP (450)",
-                "isCorrect": false
-            },
-            {
-                "answerText": "KET (70-89)",
-                "isCorrect": false
-            },
-            {
-                "answerText": "IELST (>4.0)",
-                "isCorrect": false
             }
         ]
     },
@@ -711,7 +711,7 @@
     },
      {
         "questionNumber": "Câu 34:",
-        "questionText": "Sinh viên là người dân tộc thiểu số (không phải dân tộc thiểu số ít người) ở vùng có điều tế - xã hội đặc biệt khó khăn được",
+        "questionText": "Sinh viên là người dân tộc thiểu số (không phải dân tộc thiểu số ít người) ở vùng có điều kiện kinh tế - xã hội đặc biệt khó khăn được",
         "answers": [
             {
                 "answerText": "Miễn 100% học phí",
@@ -821,7 +821,7 @@
     },
      {
         "questionNumber": "Câu 39:",
-        "questionText": "Khối lượng học tập tối thiếu của sinh viên học lực yếu ở học ký chính là",
+        "questionText": "Khối lượng học tập tối thiểu của sinh viên học lực yếu ở học kỳ chính là",
         "answers": [
             {
                 "answerText": "10 tín chỉ",
@@ -982,7 +982,7 @@
                 "isCorrect": false
             },
             {
-                "answerText": "15h lý thuyết + 30h thức hành",
+                "answerText": "15h lý thuyết + 30h thực hành",
                 "isCorrect": false
             },
             {
@@ -1022,7 +1022,7 @@
                 "isCorrect": false
             },
             {
-                "answerText": "Ko có phương án",
+                "answerText": "không có phương án",
                 "isCorrect": false
             }
         ]
@@ -1564,7 +1564,7 @@
                 "isCorrect": false
             },
             {
-                "answerText": "Ko có đáp án đúng",
+                "answerText": "không có đáp án đúng",
                 "isCorrect": false
             }
         ]
