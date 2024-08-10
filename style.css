@@ -9,33 +9,18 @@ h1, h2, h3, h4, h5, h6, p, a, button, input, textarea, label, span, div {
     font-family: 'Nunito', sans-serif;
 }
 
-/* Media Queries dành cho điện thoại di động */
+/* Existing media query for mobile devices */
 @media only screen and (max-width: 768px) {
-    .stat-item {
-        padding: 8px;
-        margin-bottom: 8px;
-        font-size: 0.9rem; /* Giảm kích thước font chữ */
+    header nav {
+        display: none; /* Hide the menu on mobile devices */
     }
 
-    .stat-group {
-        font-size: 1rem; /* Giảm kích thước font chữ trong stat-group */
-        margin-bottom: 6px; /* Giảm khoảng cách giữa stat-group và viền dưới */
-    }
-
-    .stat-item p {
-        margin-bottom: 6px; /* Giảm khoảng cách giữa phần text và stat-group */
-    }
-
-    #right-column {
-        padding: 10px; /* Điều chỉnh khoảng cách padding cho phù hợp trên điện thoại */
-        gap: 15px; /* Giảm khoảng cách giữa các phần tử */
-    }
-
-    #main-container {
-        padding: 15px;
-        margin: 40px auto; /* Giảm lề trên và dưới */
+    /* You can also hide the user section if needed */
+    header .user {
+        display: none; /* Hide the user section on mobile devices */
     }
 }
+
 
 /* Header */
 header {
