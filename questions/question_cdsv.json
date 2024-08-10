@@ -45,22 +45,22 @@
     },
     {
         "questionNumber": "Câu 3.",
-        "questionText": "Các học phần giáo dục thế chất và giáo dục quốc phòng là:",
+        "questionText": "Thời gian học tập kể cả thời gian thi của học kỳ phụ là:",
         "answers": [
             {
-                "answerText": "Học phần cấp chứng chỉ.",
+                "answerText": "8 tuần",
+                "isCorrect": false
+            },
+            {
+                "answerText": "6 tuần",
+                "isCorrect": false
+            },
+            {
+                "answerText": "5 tuần",
                 "isCorrect": true
             },
             {
-                "answerText": "Học phần tự chọn",
-                "isCorrect": false
-            },
-            {
-                "answerText": "Học phần không bắt buộc",
-                "isCorrect": false
-            },
-            {
-                "answerText": "Học phần bắt buộc",
+                "answerText": "16 tuần",
                 "isCorrect": false
             }
         ]
@@ -89,176 +89,176 @@
     },
     {
         "questionNumber": "Câu 5:",
-        "questionText": "Rút học phần của HK phụ bắt đầu từ lúc",
+        "questionText": "Để được công nhận đạt CĐR ngoại ngữ, sinh viên K64 trở về sau, nếu tốt nghiệp sau 1 tháng 1 năm 2024 phải đạt",
         "answers": [
             {
-                "answerText": "Sau 2 tuần từ lúc bắt đầu học kì",
-                "isCorrect": false
-            },
-            {
-                "answerText": "Sau 1 tuần từ lúc bắt đầu học kì",
+                "answerText": "TOEIC từ 450 trở lên",
                 "isCorrect": true
             },
             {
-                "answerText": "Trước 2 tuần từ lúc bắt đầu học kì",
+                "answerText": "TOEIC từ 600 trở lên",
                 "isCorrect": false
             },
             {
-                "answerText": "Trước 2 tuần từ lúc bắt đầu học kì",
+                "answerText": "TOEIC từ 350 trở lên",
+                "isCorrect": false
+            },
+            {
+                "answerText": "TOEIC từ 500 trở lên",
                 "isCorrect": false
             }
         ]
     },
     {
         "questionNumber": "Câu 6:",
-        "questionText": "Khối lượng học tập tối thiểu của sv học lực yếu ở học kì chính là.",
+        "questionText": "Theo quy định đánh giá điểm rèn luyện (trên web ctsv.humg.edu.vn), sinh viên đạt bằng GIỎI phải có điểm rèn luyện:",
         "answers": [
             {
-                "answerText": "10 tín",
+                "answerText": "trung bình từ 65 trở lên, không có kỳ nào dưới 55",
+                "isCorrect": false
+            },
+            {
+                "answerText": "trung bình từ 70 trở lên, không có kỳ nào dưới 55",
                 "isCorrect": true
             },
             {
-                "answerText": "14 tín",
+                "answerText": "trung bình từ 65 trở lên, không có kỳ nào dưới 50",
                 "isCorrect": false
             },
             {
-                "answerText": "18 tín",
-                "isCorrect": false
-            },
-            {
-                "answerText": "không quy định",
+                "answerText": "trung bình từ 70 trở lên, không có kỳ nào dưới 40",
                 "isCorrect": false
             }
         ]
     },
     {
         "questionNumber": "Câu 7:",
-        "questionText": "Sau 4 học kì sinh viên có điểm TBTL và số tín chỉ tích lũy tương ứng là: HK1-1,4/15 tín; HK2- 1,6/18tc; HK3-1,4/12tc; HK4-2,2/20tc, sv sẽ đc xếp hạng là sv năm thứ.",
+        "questionText": "Với khoá học 4,5 năm, thời gian ngắn nhất để sinh viên tốt nghiệp trước hạn là",
         "answers": [
             {
-                "answerText": "2",
-                "isCorrect": false
-            },
-            {
-                "answerText": "3",
+                "answerText": "3,5 năm",
                 "isCorrect": true
             },
             {
-                "answerText": "4",
+                "answerText": "4 năm",
                 "isCorrect": false
             },
             {
-                "answerText": "Không xếp hạng",
+                "answerText": "3 năm",
+                "isCorrect": false
+            },
+            {
+                "answerText": "Không có quy định cụ thể về vấn đề này",
                 "isCorrect": false
             }
         ]
     },
     {
         "questionNumber": "Câu 8:",
-        "questionText": "1 trong các điều kiện để được đi thực tập tốt nghiệp của sinh viên là.",
+        "questionText": "ĐATN của sinh viên chỉ được bảo vệ khi",
         "answers": [
             {
-                "answerText": "Có công lệnh do phòng đào tạo cấp",
+                "answerText": "Điểm chấm của GV phản biện từ 5 trở lên",
                 "isCorrect": false
             },
             {
-                "answerText": "Nợ không quá 2 học phần trong chương trình đào tạo",
+                "answerText": "Điểm chấm của GV phản biện từ 4 trở lên",
                 "isCorrect": true
             },
             {
-                "answerText": "Có điểm TBTL của học kì không dưới 2.0",
+                "answerText": "Điểm chấm của GV hướng dẫn từ 5 trở lên",
                 "isCorrect": false
             },
             {
-                "answerText": "Có điểm TBTL cuối không dưới 2.0",
+                "answerText": "Điểm chấm của GV hướng dẫn và GV phản biện đều từ 5 trở lên",
                 "isCorrect": false
             }
         ]
     },
     {
         "questionNumber": "Câu 9:",
-        "questionText": "Sinh viên xếp hạng học lực khá của hk khá của sv khi có điểm TB chung đạt",
+        "questionText": "Sinh viên có ĐATN bị điểm F sẽ không phải đi TTDN lại khi",
         "answers": [
             {
-                "answerText": "2.0-2.49",
+                "answerText": "SV đăng ký lại ĐATN và bảo vệ lại trong 3 tháng",
                 "isCorrect": false
             },
             {
-                "answerText": "2.5-3.19",
+                "answerText": "SV đăng ký lại ĐATN và bảo vệ lại trong 6 tháng",
+                "isCorrect": false
+            },
+            {
+                "answerText": "SV đăng ký lại ĐATN và bảo vệ lại trong 9 tháng",
+                "isCorrect": false
+            },
+            {
+                "answerText": "SV đăng ký lại ĐATN và bảo vệ lại trong 12 tháng",
                 "isCorrect": true
-            },
-            {
-                "answerText": "3.2-3.59",
-                "isCorrect": false
-            },
-            {
-                "answerText": "3.6-4",
-                "isCorrect": false
             }
         ]
     },
      {
         "questionNumber": "Câu 10:",
-        "questionText": "Sinh viên được xếp hạng là sinh viên năm 4 khi khối lượng kiến thức tính lũy",
+        "questionText": "Khi có điểm trung bình học kỳ dưới 0.4 sinh viên sẽ bị:",
         "answers": [
             {
-                "answerText": "32-dưới 64tc",
+                "answerText": "Cảnh báo mức 2",
                 "isCorrect": false
             },
             {
-                "answerText": "96-dưới 128tc",
+                "answerText": "Nâng 2 mức cảnh báo",
                 "isCorrect": true
             },
             {
-                "answerText": "64-dưới 96tc",
+                "answerText": "Cảnh báo mức 3",
                 "isCorrect": false
             },
             {
-                "answerText": "Từ 128 tín trở lên",
+                "answerText": "Nâng 1 mức cảnh báo",
                 "isCorrect": false
             }
         ]
     },
      {
         "questionNumber": "Câu 11:",
-        "questionText": "Sinh viên được xếp hạng là sinh viên năm 3 khi khối lượng kiến thức tính lũy",
+        "questionText": "Đâu là phát biểu đúng nhất về 'Hạng tốt nghiệp của sinh viên có kết quả toàn khoá loại xuất sắc và loại giỏi sẽ bị giảm một mức khi':",
         "answers": [
             {
-                "answerText": "32-dưới 64tc",
-                "isCorrect": false
-            },
-            {
-                "answerText": "96-dưới 128tc",
-                "isCorrect": false
-            },
-            {
-                "answerText": "64-dưới 96tc",
+                "answerText": "Có khối lượng các học phần lần 2 vượt quá 5% tổng số tín chỉ quy định toàn chương trình",
                 "isCorrect": true
             },
             {
-                "answerText": "Từ 128 tín trở lên",
+                "answerText": "Có khối lượng các học phần học lại (không tính học cải thiện) vượt quá 5% tổng số tín chỉ quy định toàn chương trình",
+                "isCorrect": false
+            },
+            {
+                "answerText": "Đã bị kỷ luật từ cảnh cáo trở lên trong toàn thời gian học",
+                "isCorrect": false
+            },
+            {
+                "answerText": "Học lần 2 quá 5% tổng số tín chỉ toàn khoá hoặc bị kỷ luật từ cảnh cáo trở lên",
                 "isCorrect": false
             }
         ]
     },
      {
         "questionNumber": "Câu 12:",
-        "questionText": "Sinh viên được xếp hạng là sinh viên năm 1 khi khối lượng kiến thức tính lũy",
+        "questionText": "Theo quy định mới về đánh giá điểm rèn luyện, sinh viên tham gia NCKH không đạt giải được:",
         "answers": [
             {
-                "answerText": "Dưới 32tc",
+                "answerText": "Cộng 2 đ vào điểm rèn luyện của học kỳ tương ứng",
                 "isCorrect": true
             },
             {
-                "answerText": "96-dưới 128tc",
+                "answerText": "Cộng 3 đ vào điểm rèn luyện của học kỳ tương ứng",
                 "isCorrect": false
             },
             {
-                "answerText": "64-dưới 96tc",
+                "answerText": "Cộng 4 đ vào điểm rèn luyện của học kỳ tương ứng",
                 "isCorrect": false
             },
             {
-                "answerText": "Từ 128 tín trở lên",
+                "answerText": "Không được cộng điểm thưởng nếu không có giải",
                 "isCorrect": false
             }
         ]
@@ -1991,7 +1991,7 @@
         "answers": [
             {
                 "answerText": "Có điểm trung bình tích lũy của toàn bộ quá trình học tập từ 2.0 trở lên",
-                "isCorrect": true
+                "isCorrect": false
             },
             {
                 "answerText": "Hoàn thành chứng chỉ giáo dục thể chất và giáo dục quốc phòng",
@@ -2003,7 +2003,7 @@
             },
             {
                 "answerText": "Cả 3 điều kiện trên.",
-                "isCorrect": false
+                "isCorrect": true
             }
         ]
     },
@@ -2641,6 +2641,160 @@
             },
             {
                 "answerText": "Đăng ký học lại học phần tự chọn tự do này ở các học kỳ tiếp theo",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionNumber": "Câu 124.",
+        "questionText": "Các học phần giáo dục thế chất và giáo dục quốc phòng là:",
+        "answers": [
+            {
+                "answerText": "Học phần cấp chứng chỉ.",
+                "isCorrect": true
+            },
+            {
+                "answerText": "Học phần tự chọn",
+                "isCorrect": false
+            },
+            {
+                "answerText": "Học phần không bắt buộc",
+                "isCorrect": false
+            },
+            {
+                "answerText": "Học phần bắt buộc",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionNumber": "Câu 125:",
+        "questionText": "Rút học phần của HK phụ bắt đầu từ lúc",
+        "answers": [
+            {
+                "answerText": "Sau 2 tuần từ lúc bắt đầu học kì",
+                "isCorrect": false
+            },
+            {
+                "answerText": "Sau 1 tuần từ lúc bắt đầu học kì",
+                "isCorrect": true
+            },
+            {
+                "answerText": "Trước 2 tuần từ lúc bắt đầu học kì",
+                "isCorrect": false
+            },
+            {
+                "answerText": "Trước 2 tuần từ lúc bắt đầu học kì",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionNumber": "Câu 126:",
+        "questionText": "Khối lượng học tập tối thiểu của sv học lực yếu ở học kì chính là.",
+        "answers": [
+            {
+                "answerText": "10 tín",
+                "isCorrect": true
+            },
+            {
+                "answerText": "14 tín",
+                "isCorrect": false
+            },
+            {
+                "answerText": "18 tín",
+                "isCorrect": false
+            },
+            {
+                "answerText": "không quy định",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionNumber": "Câu 127:",
+        "questionText": "Sinh viên xếp hạng học lực khá của hk khá của sv khi có điểm TB chung đạt",
+        "answers": [
+            {
+                "answerText": "2.0-2.49",
+                "isCorrect": false
+            },
+            {
+                "answerText": "2.5-3.19",
+                "isCorrect": true
+            },
+            {
+                "answerText": "3.2-3.59",
+                "isCorrect": false
+            },
+            {
+                "answerText": "3.6-4",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionNumber": "Câu 128:",
+        "questionText": "Sinh viên được xếp hạng là sinh viên năm 4 khi khối lượng kiến thức tính lũy",
+        "answers": [
+            {
+                "answerText": "32-dưới 64tc",
+                "isCorrect": false
+            },
+            {
+                "answerText": "96-dưới 128tc",
+                "isCorrect": true
+            },
+            {
+                "answerText": "64-dưới 96tc",
+                "isCorrect": false
+            },
+            {
+                "answerText": "Từ 128 tín trở lên",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionNumber": "Câu 129:",
+        "questionText": "Sinh viên được xếp hạng là sinh viên năm 3 khi khối lượng kiến thức tính lũy",
+        "answers": [
+            {
+                "answerText": "32-dưới 64tc",
+                "isCorrect": false
+            },
+            {
+                "answerText": "96-dưới 128tc",
+                "isCorrect": false
+            },
+            {
+                "answerText": "64-dưới 96tc",
+                "isCorrect": true
+            },
+            {
+                "answerText": "Từ 128 tín trở lên",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionNumber": "Câu 130:",
+        "questionText": "Sinh viên được xếp hạng là sinh viên năm 1 khi khối lượng kiến thức tính lũy",
+        "answers": [
+            {
+                "answerText": "Dưới 32tc",
+                "isCorrect": true
+            },
+            {
+                "answerText": "96-dưới 128tc",
+                "isCorrect": false
+            },
+            {
+                "answerText": "64-dưới 96tc",
+                "isCorrect": false
+            },
+            {
+                "answerText": "Từ 128 tín trở lên",
                 "isCorrect": false
             }
         ]
