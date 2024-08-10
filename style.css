@@ -528,3 +528,29 @@ label {
 .popup-content a:hover {
     text-decoration: underline;
 }
+
+
+/* Style cho Banner quảng cáo */
+#adBanner {
+    position: fixed; /* Giữ banner ở vị trí cố định */
+    top: 100px; /* Tăng khoảng cách từ đỉnh trang để tránh đè lên header */
+    right: 10px; /* Cách phải của trang 10px */
+    z-index: 1001; /* Đảm bảo banner nằm trên các phần tử khác */
+    width: 180px; /* Độ rộng của banner, bạn có thể thay đổi giá trị này */
+    height: auto; /* Tự động điều chỉnh chiều cao theo tỷ lệ */
+}
+
+#adBanner img {
+    width: 100%; /* Đảm bảo hình ảnh chiếm toàn bộ chiều rộng của banner */
+    height: auto; /* Đảm bảo hình ảnh giữ nguyên tỷ lệ */
+    border-radius: 10px; /* Bo tròn các góc của banner */
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3); /* Tạo đổ bóng cho banner */
+    transition: transform 0.3s ease; /* Hiệu ứng hover */
+}
+
+#adBanner img:hover {
+    transform: scale(1.05); /* Phóng to nhẹ khi hover */
+}
+
+
+

@@ -43,6 +43,12 @@ function checkAnswer() {
         return;
     }
 
+    // Vô hiệu hóa tất cả các ô chọn đáp án sau khi người dùng đã chọn
+    const allAnswers = document.querySelectorAll('input[name="answer"]');
+    allAnswers.forEach(answer => {
+        answer.disabled = true; // Vô hiệu hóa mỗi đáp án
+    });
+
     attemptedCount++; // Tăng số câu đã làm
 
     const isCorrect = selectedAnswer.value === 'true';
@@ -62,6 +68,7 @@ function checkAnswer() {
     document.getElementById('submit-answer-container').style.display = 'none';
     document.getElementById('next-question-container').style.display = 'block';
 }
+
 
 function loadNextQuestion() {
     currentQuestionIndex++;
