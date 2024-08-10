@@ -12,14 +12,14 @@ h1, h2, h3, h4, h5, h6, p, a, button, input, textarea, label, span, div {
 /* Existing media query for mobile devices */
 @media only screen and (max-width: 768px) {
     header nav {
-        display: none; /* Hide the menu on mobile devices */
+        display: none !important; /* Force hiding the menu */
     }
 
-    /* You can also hide the user section if needed */
     header .user {
-        display: none; /* Hide the user section on mobile devices */
+        display: none !important; /* Force hiding the user section */
     }
 }
+
 
 
 /* Header */
@@ -459,4 +459,72 @@ label {
 
 .fs18 {
     font-size: 18px;
+}
+
+
+/* Popup Background */
+.popup {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1000; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgba(0,0,0,0.5); /* Black background with opacity */
+}
+
+/* Popup Content */
+.popup-content {
+    background-color: #fff;
+    margin: 10% auto; /* 10% from the top and centered */
+    padding: 20px;
+    border: 1px solid #ccc;
+    width: 80%; /* Width of the popup */
+    max-width: 600px; /* Max width of the popup */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0px 5px 15px rgba(0,0,0,0.3); /* Box shadow for a professional look */
+    text-align: center; /* Center the text */
+}
+
+/* Close Button */
+.closeBtn {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+    background: none;
+    border: none;
+    outline: none;
+}
+
+.closeBtn:hover,
+.closeBtn:focus {
+    color: #000;
+}
+
+/* Popup Title */
+.popup-content h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+    font-family: 'Nunito', sans-serif;
+}
+
+.popup-content h2 i {
+    margin-right: 10px;
+    color: #e74c3c; /* Red color for the icon */
+}
+
+/* Style for the link */
+.popup-content a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.popup-content a:hover {
+    text-decoration: underline;
 }

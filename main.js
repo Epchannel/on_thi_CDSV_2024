@@ -5,6 +5,9 @@ let attemptedCount = 0;
 let totalQuestions = 0;
 let startTime = Date.now();
 
+
+
+
 document.getElementById('submit-answer').addEventListener('click', checkAnswer);
 document.getElementById('next-question').addEventListener('click', loadNextQuestion);
 
@@ -96,3 +99,6 @@ fetch('questions/question_cdsv.json')
 
 // Cập nhật thời gian mỗi giây
 setInterval(updateStats, 1000);
+
+
+
