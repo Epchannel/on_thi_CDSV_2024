@@ -1,44 +1,44 @@
 [
     {
         "questionNumber": "Câu 1.",
-        "questionText": "Đợt đăng ký dự kiến trước khi bắt đầu học kì chính.",
+        "questionText": "Theo quy định 1164 về chuẩn đầu ra tin học, chứng chỉ IC3 được sử dụng để:",
         "answers": [
             {
-                "answerText": "2 tuần",
-                "isCorrect": false
-            },
-            {
-                "answerText": "3 tuần",
-                "isCorrect": false
-            },
-            {
-                "answerText": "1 tuần",
-                "isCorrect": false
-            },
-            {
-                "answerText": "4 tuần",
+                "answerText": "Công nhận chuẩn đầu ra tin học, miễn học, miễn thi và công nhận điểm học phần tin học đại cương",
                 "isCorrect": true
+            },
+            {
+                "answerText": "Miễn học, miễn thi và công nhận điểm học phần tin học đại cương",
+                "isCorrect": false
+            },
+            {
+                "answerText": "Công nhận chuẩn đầu ra tin học",
+                "isCorrect": false
+            },
+            {
+                "answerText": "Chứng chỉ không có tác dụng gì với chuẩn đầu ra tin học",
+                "isCorrect": false
             }
         ]
     },
     {
         "questionNumber": "Câu 2.",
-        "questionText": "Thi kết thúc 1 học phần sinh viên có điểm thành phần tương ứng là A-5, B-8, C-9 điểm học phần hệ 4 của sinh viên là:",
+        "questionText": "Mức điểm IELTS TỐI THIỂU để sinh viên K65 vừa được công nhận đạt chuẩn đầu ra ngoại ngữ, vừa được miễn học, miễn thi 6 tín chỉ ngoại ngữ bắt buộc trong chương trình đào tạo là:",
         "answers": [
             {
-                "answerText": "2",
+                "answerText": "IELTS 4.5",
                 "isCorrect": true
             },
             {
-                "answerText": "2.5",
+                "answerText": "IELTS 5.0",
                 "isCorrect": false
             },
             {
-                "answerText": "1.5",
+                "answerText": "IELTS 5.5",
                 "isCorrect": false
             },
             {
-                "answerText": "1",
+                "answerText": "IELTS 6.0",
                 "isCorrect": false
             }
         ]
@@ -2602,7 +2602,29 @@
         ]
     },
     {
-        "questionNumber": "Câu 122:",
+        "questionNumber": "Câu 122.",
+        "questionText": "Đợt đăng ký dự kiến trước khi bắt đầu học kì chính.",
+        "answers": [
+            {
+                "answerText": "2 tuần",
+                "isCorrect": false
+            },
+            {
+                "answerText": "3 tuần",
+                "isCorrect": false
+            },
+            {
+                "answerText": "1 tuần",
+                "isCorrect": false
+            },
+            {
+                "answerText": "4 tuần",
+                "isCorrect": true
+            }
+        ]
+    },
+    {
+        "questionNumber": "Câu 123:",
         "questionText": "Theo quy chế 768, một học phần tự chọn tự do được điểm C+, muốn cải thiện kết quả học tập, sinh viên có thể:",
         "answers": [
             {
