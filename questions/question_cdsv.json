@@ -163,7 +163,7 @@
             },
             {
                 "answerText": "Điểm chấm của GV phản biện từ 4 trở lên",
-                "isCorrect": true
+                "isCorrect": false
             },
             {
                 "answerText": "Điểm chấm của GV hướng dẫn từ 5 trở lên",
@@ -171,7 +171,7 @@
             },
             {
                 "answerText": "Điểm chấm của GV hướng dẫn và GV phản biện đều từ 5 trở lên",
-                "isCorrect": false
+                "isCorrect": true
             }
         ]
     },
