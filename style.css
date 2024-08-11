@@ -18,6 +18,10 @@ h1, h2, h3, h4, h5, h6, p, a, button, input, textarea, label, span, div {
     header .user {
         display: none !important; /* Force hiding the user section */
     }
+
+    #adBanner {
+        display: none; /* Ẩn banner trên các thiết bị có chiều rộng màn hình dưới 768px */
+    }
 }
 
 
