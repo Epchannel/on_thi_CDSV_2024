@@ -1823,11 +1823,11 @@
             },
             {
                 "answerText": "5 tuần.",
-                "isCorrect": false
+                "isCorrect": true
             },
             {
                 "answerText": "16 tuần",
-                "isCorrect": true
+                "isCorrect": false
             }
         ]
     },
