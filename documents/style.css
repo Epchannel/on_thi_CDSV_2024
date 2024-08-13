@@ -1,0 +1,147 @@
+/* Reset mặc định của trình duyệt */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Font và nền cơ bản */
+body {
+    font-family: 'Nunito', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header */
+header {
+    background-color: #007bff;
+    padding: 15px 20px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+header .logo {
+    display: flex;
+    align-items: center;
+}
+
+header .logo img {
+    height: 40px;
+    margin-right: 10px;
+}
+
+header .logo span {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+/* Main Content */
+#pdf-container {
+    max-width: 900px;
+    margin: 100px auto 50px auto; /* Adjusted for fixed header */
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#pdf-container:hover {
+    transform: translateY(-5px); /* Nhẹ nhàng nâng lên khi hover */
+    box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.2);
+}
+
+#pdf-container h1 {
+    margin-bottom: 30px;
+    font-size: 2.5rem;
+    color: #007bff;
+    text-align: center;
+    position: relative;
+}
+
+#pdf-container h1::after {
+    content: '';
+    width: 60px;
+    height: 4px;
+    background-color: #007bff;
+    position: absolute;
+    left: 50%;
+    bottom: -10px;
+    transform: translateX(-50%);
+    border-radius: 2px;
+}
+
+.pdf-list {
+    list-style-type: none;
+    margin-top: 20px;
+}
+
+.pdf-list li {
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    display: flex;
+    align-items: center;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.pdf-list li:hover {
+    background-color: #e9ecef;
+    transform: translateX(5px); /* Slide nhẹ sang phải khi hover */
+}
+
+.pdf-list a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: #007bff;
+    transition: color 0.3s ease;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.pdf-list a i {
+    margin-right: 15px;
+    font-size: 1.5rem;
+    color: #e74c3c; /* Màu đỏ cho biểu tượng PDF */
+}
+
+.pdf-list a:hover {
+    color: #0056b3;
+}
+
+.pdf-list a span {
+    flex-grow: 1;
+}
+
+.pdf-list a .download-icon {
+    font-size: 1.3rem;
+    color: #007bff;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.pdf-list a:hover .download-icon {
+    transform: translateX(5px); /* Slide nhẹ sang phải khi hover */
+    color: #0056b3;
+}
+
+/* Footer */
+footer {
+    background-color: #007bff;
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    box-shadow: 0px -4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
