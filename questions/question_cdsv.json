@@ -27,7 +27,7 @@
         "answers": [
             {
                 "answerText": "IELTS 4.5",
-                "isCorrect": true
+                "isCorrect": false
             },
             {
                 "answerText": "IELTS 5.0",
@@ -35,7 +35,7 @@
             },
             {
                 "answerText": "IELTS 5.5",
-                "isCorrect": false
+                "isCorrect": true
             },
             {
                 "answerText": "IELTS 6.0",
