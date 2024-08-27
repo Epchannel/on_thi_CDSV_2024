@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tính Điểm Trung Bình Môn Học HUMG</title>
+    
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .container {
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            max-width: 100%;
+            width: 100%;
+            box-sizing: border-box;
+            text-align: center;
+        }
+        h1 {
+            color: #007BFF;
+            margin-bottom: 20px;
+            font-size: 24px;
+        }
+        .input-group {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            margin-bottom: 15px;
+        }
+        .input-group label {
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        .input-group input[type="number"] {
+            padding: 10px;
+            border-radius: 5px;
+            border: 1px solid #ddd;
+            width: 80px;
+            text-align: center;
+        }
+        .mode-group {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        .mode-group input[type="radio"] {
+            margin: 0 10px;
+        }
+        button {
+            background-color: #007BFF;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            box-sizing: border-box;
+            width: 150px;
+            margin: 0 auto;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+        .result {
+            margin-top: 20px;
+            font-size: 18px;
+            font-weight: bold;
+        }
+        .result p {
+            margin: 5px 0;
+        }
+        @media only screen and (max-width: 600px) {
+            .input-group {
+                flex-direction: column;
+                align-items: center;
+            }
+            .input-group input[type="number"] {
+                width: 100%;
+                margin-bottom: 10px;
+            }
+            button {
+                width: 100%;
+            }
+        }
+    </style>
+    <script>
+        function calculateGrade() {
+            const A = parseFloat(document.getElementById("A").value);
+            const B = parseFloat(document.getElementById("B").value);
+            const C = parseFloat(document.getElementById("C").value);
+            const mode = document.querySelector('input[name="mode"]:checked').value;
+
+            let finalGrade;
+            if (mode === "direct") {
+                finalGrade = 0.6 * A + 0.3 * B + 0.1 * C;
+            } else {
+                finalGrade = 0.5 * A + 0.4 * B + 0.1 * C;
+            }
+
+            let gradeLetter;
+            let gradePoint;
+
+            if (finalGrade >= 9.0) {
+                gradeLetter = "A+";
+                gradePoint = 4.0;
+            } else if (finalGrade >= 8.5) {
+                gradeLetter = "A";
+                gradePoint = 3.7;
+            } else if (finalGrade >= 8.0) {
+                gradeLetter = "B+";
+                gradePoint = 3.5;
+            } else if (finalGrade >= 7.0) {
+                gradeLetter = "B";
+                gradePoint = 3.0;
+            } else if (finalGrade >= 6.5) {
+                gradeLetter = "C+";
+                gradePoint = 2.5;
+            } else if (finalGrade >= 5.5) {
+                gradeLetter = "C";
+                gradePoint = 2.0;
+            } else if (finalGrade >= 5.0) {
+                gradeLetter = "D+";
+                gradePoint = 1.5;
+            } else if (finalGrade >= 4.0) {
+                gradeLetter = "D";
+                gradePoint = 1.0;
+            } else {
+                gradeLetter = "F";
+                gradePoint = 0.0;
+            }
+
+            document.getElementById("result10").textContent = `Điểm theo thang 10: ${finalGrade.toFixed(2)}`;
+            document.getElementById("result4letter").textContent = `Điểm theo hệ 4 (Chữ): ${gradeLetter}`;
+            document.getElementById("result4number").textContent = `Điểm theo hệ 4 (Số): ${gradePoint}`;
+        }
+    </script>
+</head>
+<body>
+    <div class="container">
+        <h1>Tính Điểm Trung Bình</h1>
+        <div class="input-group">
+            <div>
+                <label for="A">Điểm A:</label>
+                <input type="number" id="A" name="A" step="0.1" min="0" max="10" required>
+            </div>
+            <div>
+                <label for="B">Điểm B:</label>
+                <input type="number" id="B" name="B" step="0.1" min="0" max="10" required>
+            </div>
+            <div>
+                <label for="C">Điểm C:</label>
+                <input type="number" id="C" name="C" step="0.1" min="0" max="10" required>
+            </div>
+        </div>
+        <div class="mode-group">
+            <input type="radio" id="direct" name="mode" value="direct" checked>
+            <label for="direct">Học và thi trực tiếp</label>
+            <input type="radio" id="online" name="mode" value="online">
+            <label for="online">Học và thi trực tuyến</label>
+        </div>
+        <button onclick="calculateGrade()">Tính điểm</button>
+        <div class="result">
+            <p id="result10">Điểm theo thang 10:</p>
+            <p id="result4letter">Điểm theo hệ 4 (Chữ):</p>
+            <p id="result4number">Điểm theo hệ 4 (Số):</p>
+        </div>
+    </div>
+</body>
+</html>
