@@ -41,4 +41,4 @@ Dự án này được cấp phép dưới giấy phép MIT. Xem chi tiết tạ
 
 ## 👨‍💻 Tác giả
 
-Dự án được phát triển bởi **EP Channel**. Nếu bạn có câu hỏi hoặc cần hỗ trợ, vui lòng liên hệ với chúng tôi qua email: [epchannel@admin.me](mailto:epchannel@admin.me).
+Dự án được phát triển bởi **EP Channel**. Nếu bạn có câu hỏi hoặc cần hỗ trợ, vui lòng liên hệ với chúng tôi qua email: [admin@epchannel.me](mailto:admin@epchannel.me).
