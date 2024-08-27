@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bảng Tính Điểm</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h2>BẢNG TÍNH ĐIỂM HỌC PHẦN HỌC <span class="highlight">TRỰC TIẾP (OFFLINE)</span></h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>ĐIỂM</th>
+                    <th>C</th>
+                    <th>B</th>
+                    <th>A</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="enter-score">Nhập điểm HỆ 10 vào đây →</td>
+                    <td><input type="number" id="inputC" placeholder="10"></td>
+                    <td><input type="number" id="inputB" placeholder="10"></td>
+                    <td><input type="number" id="inputA" placeholder="10"></td>
+                </tr>
+                <tr>
+                    <td>Điểm TBC hệ 10 của sinh viên là:</td>
+                    <td colspan="3" id="tbcHe10">--</td>
+                </tr>
+                <tr>
+                    <td>Điểm TBC hệ 4 của sinh viên là:</td>
+                    <td colspan="3" id="tbcHe4">--</td>
+                </tr>
+                <tr>
+                    <td>Điểm chữ quy đổi là:</td>
+                    <td colspan="3" id="diemChu">--</td>
+                </tr>
+            </tbody>
+        </table>
+        <p class="note">← Kết quả sẽ hiện ở đây nên KHÔNG ĐIỀN vào đây</p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
